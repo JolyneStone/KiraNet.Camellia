@@ -1,0 +1,3 @@
+2018-03-23 14:22:35.5927|12|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|INFO|  AuthenticationScheme: Bearer was challenged. |url: http://localhost/api/Test/GetUser|action: GetUser
+2018-03-23 14:23:10.5083|12|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|INFO|  AuthenticationScheme: Bearer was challenged. |url: http://localhost/api/Test/GetUser|action: GetUser
+2018-03-23 23:21:17.4549|12|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|INFO|  AuthenticationScheme: Bearer was challenged. |url: http://localhost/api/Test/GetUser|action: GetUser

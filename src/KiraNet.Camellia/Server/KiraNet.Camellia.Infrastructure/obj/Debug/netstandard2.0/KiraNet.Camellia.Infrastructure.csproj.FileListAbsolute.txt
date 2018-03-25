@@ -1,0 +1,12 @@
+C:\Users\99752\Desktop\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\bin\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.deps.json
+C:\Users\99752\Desktop\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\bin\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.dll
+C:\Users\99752\Desktop\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\bin\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.pdb
+C:\Users\99752\Desktop\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.dll
+C:\Users\99752\Desktop\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.xml
+C:\Users\99752\Desktop\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\obj\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\99752\Desktop\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\obj\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\99752\Desktop\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\obj\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\99752\Desktop\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\obj\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.AssemblyInfo.cs
+C:\Users\99752\Desktop\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\obj\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.csproj.CopyComplete
+C:\Users\99752\Desktop\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\obj\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.dll
+C:\Users\99752\Desktop\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\obj\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.pdb
