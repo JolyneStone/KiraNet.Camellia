@@ -183,11 +183,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\99752\\Desktop\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Infrastructure\\KiraNet.Camellia.Infrastructure.csproj",
+      "projectUniqueName": "C:\\monster\\Code\\KiraNet\\KiraNet.Camellia\\src\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Infrastructure\\KiraNet.Camellia.Infrastructure.csproj",
       "projectName": "KiraNet.Camellia.Infrastructure",
-      "projectPath": "C:\\Users\\99752\\Desktop\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Infrastructure\\KiraNet.Camellia.Infrastructure.csproj",
+      "projectPath": "C:\\monster\\Code\\KiraNet\\KiraNet.Camellia\\src\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Infrastructure\\KiraNet.Camellia.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\99752\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\99752\\Desktop\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Infrastructure\\obj\\",
+      "outputPath": "C:\\monster\\Code\\KiraNet\\KiraNet.Camellia\\src\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

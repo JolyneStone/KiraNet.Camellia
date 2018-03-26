@@ -14406,11 +14406,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\99752\\Desktop\\KiraNet.Camellia\\Server\\KiraNet.Camellia.AuthorizationServer\\KiraNet.Camellia.AuthorizationServer.csproj",
+      "projectUniqueName": "C:\\monster\\Code\\KiraNet\\KiraNet.Camellia\\src\\KiraNet.Camellia\\Server\\KiraNet.Camellia.AuthorizationServer\\KiraNet.Camellia.AuthorizationServer.csproj",
       "projectName": "KiraNet.Camellia.AuthorizationServer",
-      "projectPath": "C:\\Users\\99752\\Desktop\\KiraNet.Camellia\\Server\\KiraNet.Camellia.AuthorizationServer\\KiraNet.Camellia.AuthorizationServer.csproj",
+      "projectPath": "C:\\monster\\Code\\KiraNet\\KiraNet.Camellia\\src\\KiraNet.Camellia\\Server\\KiraNet.Camellia.AuthorizationServer\\KiraNet.Camellia.AuthorizationServer.csproj",
       "packagesPath": "C:\\Users\\99752\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\99752\\Desktop\\KiraNet.Camellia\\Server\\KiraNet.Camellia.AuthorizationServer\\obj\\",
+      "outputPath": "C:\\monster\\Code\\KiraNet\\KiraNet.Camellia\\src\\KiraNet.Camellia\\Server\\KiraNet.Camellia.AuthorizationServer\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -14431,8 +14431,8 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\99752\\Desktop\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Shared\\KiraNet.Camellia.Shared.csproj": {
-              "projectPath": "C:\\Users\\99752\\Desktop\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Shared\\KiraNet.Camellia.Shared.csproj"
+            "C:\\monster\\Code\\KiraNet\\KiraNet.Camellia\\src\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Shared\\KiraNet.Camellia.Shared.csproj": {
+              "projectPath": "C:\\monster\\Code\\KiraNet\\KiraNet.Camellia\\src\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Shared\\KiraNet.Camellia.Shared.csproj"
             }
           }
         }

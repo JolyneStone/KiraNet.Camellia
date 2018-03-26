@@ -96,18 +96,18 @@ namespace KiraNet.Camellia.ApiService
                     options.Authority = serviceConfig.AuthBase;
                     options.RequireHttpsMetadata = false;
 
-                    options.ApiName = serviceConfig.ApiName;
+                    options.ApiName = serviceConfig.ClientName;
                 });
 
             // Action 使用对应的EnableCors，不启用使用[DisableCors] 或 直接使用app.UseCors("") 对所有的Action生效
             services.AddCors(options =>
             {
-                options.AddPolicy(serviceConfig.AuthName, policy =>
-                {
-                    policy.WithOrigins(serviceConfig.AuthBase)
-                        .AllowAnyHeader()
-                        .AllowAnyMethod();
-                });
+                //options.AddPolicy(serviceConfig.AuthName, policy =>
+                //{
+                //    policy.WithOrigins(serviceConfig.AuthBase)
+                //        .AllowAnyHeader()
+                //        .AllowAnyMethod();
+                //});
 
                 options.AddPolicy(serviceConfig.ClientName, policy =>
                 {
@@ -128,8 +128,7 @@ namespace KiraNet.Camellia.ApiService
             env.ConfigureNLog("nlog.config");
 
             app.UseExceptionHandlingMiddleware();
-            app.UseCors(ServiceConfiguration.Configs.AuthName)
-               .UseCors(ServiceConfiguration.Configs.ClientName);
+            app.UseCors(ServiceConfiguration.Configs.ClientName);
             app.UseStaticFiles();
             app.UseSwagger();
             app.UseSwaggerUI(c =>

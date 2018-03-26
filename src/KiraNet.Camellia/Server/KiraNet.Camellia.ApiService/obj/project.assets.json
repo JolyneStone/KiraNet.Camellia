@@ -13627,11 +13627,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\99752\\Desktop\\KiraNet.Camellia\\Server\\KiraNet.Camellia.ApiService\\KiraNet.Camellia.ApiService.csproj",
+      "projectUniqueName": "C:\\monster\\Code\\KiraNet\\KiraNet.Camellia\\src\\KiraNet.Camellia\\Server\\KiraNet.Camellia.ApiService\\KiraNet.Camellia.ApiService.csproj",
       "projectName": "KiraNet.Camellia.ApiService",
-      "projectPath": "C:\\Users\\99752\\Desktop\\KiraNet.Camellia\\Server\\KiraNet.Camellia.ApiService\\KiraNet.Camellia.ApiService.csproj",
+      "projectPath": "C:\\monster\\Code\\KiraNet\\KiraNet.Camellia\\src\\KiraNet.Camellia\\Server\\KiraNet.Camellia.ApiService\\KiraNet.Camellia.ApiService.csproj",
       "packagesPath": "C:\\Users\\99752\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\99752\\Desktop\\KiraNet.Camellia\\Server\\KiraNet.Camellia.ApiService\\obj\\",
+      "outputPath": "C:\\monster\\Code\\KiraNet\\KiraNet.Camellia\\src\\KiraNet.Camellia\\Server\\KiraNet.Camellia.ApiService\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -13652,11 +13652,11 @@
       "frameworks": {
         "netcoreapp2.0": {
           "projectReferences": {
-            "C:\\Users\\99752\\Desktop\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Infrastructure\\KiraNet.Camellia.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\99752\\Desktop\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Infrastructure\\KiraNet.Camellia.Infrastructure.csproj"
+            "C:\\monster\\Code\\KiraNet\\KiraNet.Camellia\\src\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Infrastructure\\KiraNet.Camellia.Infrastructure.csproj": {
+              "projectPath": "C:\\monster\\Code\\KiraNet\\KiraNet.Camellia\\src\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Infrastructure\\KiraNet.Camellia.Infrastructure.csproj"
             },
-            "C:\\Users\\99752\\Desktop\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Shared\\KiraNet.Camellia.Shared.csproj": {
-              "projectPath": "C:\\Users\\99752\\Desktop\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Shared\\KiraNet.Camellia.Shared.csproj"
+            "C:\\monster\\Code\\KiraNet\\KiraNet.Camellia\\src\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Shared\\KiraNet.Camellia.Shared.csproj": {
+              "projectPath": "C:\\monster\\Code\\KiraNet\\KiraNet.Camellia\\src\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Shared\\KiraNet.Camellia.Shared.csproj"
             }
           }
         }

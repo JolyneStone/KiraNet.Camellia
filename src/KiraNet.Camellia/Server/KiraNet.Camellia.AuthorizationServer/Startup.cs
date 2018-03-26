@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Security.Cryptography.X509Certificates;
 using AutoMapper;
+using IdentityServer4;
 using KiraNet.Camellia.AuthorizationServer.Configuration;
 using KiraNet.Camellia.AuthorizationServer.Data;
 using KiraNet.Camellia.AuthorizationServer.Extensions;
@@ -151,7 +152,7 @@ namespace KiraNet.Camellia.AuthorizationServer
 
         public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
         {
-            //app.InitializeDatabase();
+            app.InitializeDatabase();
             var serviceConfig = ServiceConfiguration.Configs;
 
             //添加NLog到.net core框架中
@@ -178,6 +179,7 @@ namespace KiraNet.Camellia.AuthorizationServer
 
             app.UseStaticFiles();
             app.UseIdentityServer();
+
             app.UseMvc(routes =>
             {
                 routes.MapRoute(

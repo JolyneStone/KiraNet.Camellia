@@ -15,7 +15,7 @@ export class HomeComponent implements OnInit {
   }
 
   getUser() {
-    this.httpClient.get<User>('api/test/getuser')
+    this.httpClient.get<User>('http://localhost:5100/api/test/getuser')
       .subscribe((user: User) => { console.log("user", user) });
   }
 

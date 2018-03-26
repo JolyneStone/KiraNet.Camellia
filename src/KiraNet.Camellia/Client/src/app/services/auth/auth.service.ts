@@ -22,7 +22,7 @@ export class AuthService {
     private httpClient: HttpClient
   ) {
     // 当token过期或根本没有token的时候，调用login方法
-    // this.manager.events.addAccessTokenExpired(() => this.login());
+    this.manager.events.addAccessTokenExpired(() => this.login());
   }
 
   public get authType(): string {
@@ -57,7 +57,6 @@ export class AuthService {
       Observable.fromPromise(this.manager.signinRedirectCallback())
         .subscribe((user: User) => {
           this.loginStatusChanged.emit(user);
-          this.manager.events.addAccessTokenExpired(() => this.login());
           observer.next(user);
           observer.complete();
         });

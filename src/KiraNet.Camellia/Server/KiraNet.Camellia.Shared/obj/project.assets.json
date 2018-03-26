@@ -3574,11 +3574,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\99752\\Desktop\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Shared\\KiraNet.Camellia.Shared.csproj",
+      "projectUniqueName": "C:\\monster\\Code\\KiraNet\\KiraNet.Camellia\\src\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Shared\\KiraNet.Camellia.Shared.csproj",
       "projectName": "KiraNet.Camellia.Shared",
-      "projectPath": "C:\\Users\\99752\\Desktop\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Shared\\KiraNet.Camellia.Shared.csproj",
+      "projectPath": "C:\\monster\\Code\\KiraNet\\KiraNet.Camellia\\src\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Shared\\KiraNet.Camellia.Shared.csproj",
       "packagesPath": "C:\\Users\\99752\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\99752\\Desktop\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Shared\\obj\\",
+      "outputPath": "C:\\monster\\Code\\KiraNet\\KiraNet.Camellia\\src\\KiraNet.Camellia\\Server\\KiraNet.Camellia.Shared\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
