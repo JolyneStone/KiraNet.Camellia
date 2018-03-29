@@ -57,8 +57,9 @@ export class AuthService {
       Observable.fromPromise(this.manager.signinRedirectCallback())
         .subscribe((user: User) => {
           this.loginStatusChanged.emit(user);
-          observer.next(user);
-          observer.complete();
+          console.log(user.profile.name + ":" + user.profile.email);
+          //observer.next(user);
+          //observer.complete();
         });
     });
   }

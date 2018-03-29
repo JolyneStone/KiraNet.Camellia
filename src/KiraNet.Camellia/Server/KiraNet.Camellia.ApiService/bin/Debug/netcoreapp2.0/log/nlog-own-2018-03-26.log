@@ -1,0 +1,1 @@
+2018-03-26 20:30:33.0325|12|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|INFO|  AuthenticationScheme: Bearer was challenged. |url: http://localhost/api/Test/GetUser|action: GetUser

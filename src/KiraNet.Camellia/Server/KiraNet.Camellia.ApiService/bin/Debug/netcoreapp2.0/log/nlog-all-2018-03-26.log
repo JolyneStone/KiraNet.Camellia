@@ -1,0 +1,24 @@
+2018-03-26 20:30:15.3520|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/   
+2018-03-26 20:30:17.9767|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2917.0577ms 200 text/html 
+2018-03-26 20:30:21.0146|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/v1/swagger.json   
+2018-03-26 20:30:22.1419|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1529.5009ms 200 application/json 
+2018-03-26 20:30:31.3269|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/api/Test/GetUser   
+2018-03-26 20:30:32.2483|2|Microsoft.AspNetCore.Authorization.DefaultAuthorizationService|INFO|Authorization failed for user: (null). 
+2018-03-26 20:30:32.3719|3|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Authorization failed for the request at filter 'Microsoft.AspNetCore.Mvc.Authorization.AuthorizeFilter'. 
+2018-03-26 20:30:32.3986|1|Microsoft.AspNetCore.Mvc.ChallengeResult|INFO|Executing ChallengeResult with authentication schemes (). 
+2018-03-26 20:30:32.9425|12|Microsoft.AspNetCore.Authentication.JwtBearer.JwtBearerHandler|INFO|AuthenticationScheme: BearerIdentityServerAuthenticationJwt was challenged. 
+2018-03-26 20:30:33.0325|12|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|INFO|AuthenticationScheme: Bearer was challenged. 
+2018-03-26 20:30:33.1303|2|Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker|INFO|Executed action KiraNet.Camellia.ApiService.Controllers.TestController.GetUser (KiraNet.Camellia.ApiService) in 990.0471ms 
+2018-03-26 20:30:33.1583|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1829.954ms 401  
+2018-03-26 20:44:53.8217|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/   
+2018-03-26 20:44:54.5281|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 536.1946ms 200 text/html 
+2018-03-26 20:44:55.7223|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/v1/swagger.json   
+2018-03-26 20:44:56.4424|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 689.128ms 200 application/json 
+2018-03-26 20:53:41.7135|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/   
+2018-03-26 20:53:42.6534|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1372.0937ms 200 text/html 
+2018-03-26 20:53:45.7966|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/v1/swagger.json   
+2018-03-26 20:53:46.6442|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 869.8064ms 200 application/json 
+2018-03-26 21:05:18.3718|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/   
+2018-03-26 21:05:18.9619|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 604.6956ms 200 text/html 
+2018-03-26 21:05:21.0899|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/v1/swagger.json   
+2018-03-26 21:05:21.8439|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 786.4ms 200 application/json 

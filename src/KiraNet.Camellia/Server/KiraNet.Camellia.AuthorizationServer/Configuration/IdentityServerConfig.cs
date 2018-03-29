@@ -19,7 +19,7 @@ namespace KiraNet.Camellia.AuthorizationServer.Configuration
                 },
                 new ApiResource(serviceConfig.ClientName, serviceConfig.ServiceDisplay)
                 {
-                    UserClaims = { JwtClaimTypes.Name, JwtClaimTypes.PreferredUserName }
+                    UserClaims = { JwtClaimTypes.Name, JwtClaimTypes.PreferredUserName, JwtClaimTypes.Email }
                 },
             };
         }
@@ -36,7 +36,8 @@ namespace KiraNet.Camellia.AuthorizationServer.Configuration
                     AllowedGrantTypes = GrantTypes.Implicit,  // 使用implicit flow
                     AllowAccessTokensViaBrowser = true, // 控制是否通过浏览器为该客户端传输access token (默认为 false)
                     AllowOfflineAccess = true, // 离线是指网站和用户之间断开了，这样就需要一个refresh token
-                    AccessTokenLifetime = 60*15, // access token 有效时间
+                    AccessTokenLifetime = 60 * 60 * 2, // access token 有效时间
+                    UpdateAccessTokenClaimsOnRefresh = true,
                     RedirectUris = { $"{serviceConfig.ApiBase}/login-callback" },
                     PostLogoutRedirectUris = { serviceConfig.ApiBase },
                     AllowedCorsOrigins = { serviceConfig.ApiBase },
@@ -55,8 +56,9 @@ namespace KiraNet.Camellia.AuthorizationServer.Configuration
                         ClientName = serviceConfig.ClientName,
                         AllowedGrantTypes = GrantTypes.Implicit,
                         AllowAccessTokensViaBrowser = true,
-                        //AllowOfflineAccess = true,
-                        AccessTokenLifetime = 60 * 15,
+                        AllowOfflineAccess = true,
+                        AccessTokenLifetime = 60 * 60 *2,
+                        UpdateAccessTokenClaimsOnRefresh = true,
                         RedirectUris = { $"http://localhost:5200/login-callback" },
                         PostLogoutRedirectUris = { "http://localhost:5200" },
                         AllowedCorsOrigins = { "http://localhost:5200" },

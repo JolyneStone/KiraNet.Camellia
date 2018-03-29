@@ -1,0 +1,100 @@
+2018-03-26 20:30:19.6080|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-26 20:30:20.3482|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-26 20:30:20.8908|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-26 20:30:21.0893|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-26 20:30:21.3431|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-26 20:30:23.3621|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-26 20:30:55.4207|0|KiraNet.Camellia.AuthorizationServer.Controllers.AccountController|INFO|  User logged out. |url: http://localhost/Account/Logout|action: Logout
+2018-03-26 20:30:57.6033|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/endsession/callback matched to endpoint type Endsession |url: http://localhost/connect/endsession/callback|action: 
+2018-03-26 20:30:57.7957|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Endsession, successfully created handler: IdentityServer4.Endpoints.EndSessionCallbackEndpoint |url: http://localhost/connect/endsession/callback|action: 
+2018-03-26 20:30:57.8846|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.EndSessionCallbackEndpoint for /connect/endsession/callback |url: http://localhost/connect/endsession/callback|action: 
+2018-03-26 20:30:57.9696|0|IdentityServer4.Endpoints.EndSessionCallbackEndpoint|DEBUG|  Processing signout callback request |url: http://localhost/connect/endsession/callback|action: 
+2018-03-26 20:30:58.2239|0|IdentityServer4.Validation.EndSessionRequestValidator|DEBUG|  No client front-channel logout URLs |url: http://localhost/connect/endsession/callback|action: 
+2018-03-26 20:30:58.2822|0|IdentityServer4.Validation.EndSessionRequestValidator|DEBUG|  No client back-channel logout URLs |url: http://localhost/connect/endsession/callback|action: 
+2018-03-26 20:30:58.3140|0|IdentityServer4.Endpoints.EndSessionCallbackEndpoint|INFO|  Successful signout callback. |url: http://localhost/connect/endsession/callback|action: 
+2018-03-26 20:30:58.3492|0|IdentityServer4.Endpoints.EndSessionCallbackEndpoint|DEBUG|  No client front-channel iframe urls |url: http://localhost/connect/endsession/callback|action: 
+2018-03-26 20:30:58.3738|0|IdentityServer4.Endpoints.EndSessionCallbackEndpoint|DEBUG|  No client back-channel iframe urls |url: http://localhost/connect/endsession/callback|action: 
+2018-03-26 20:44:57.4864|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-26 20:44:57.8421|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-26 20:44:58.1406|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-26 20:44:58.1652|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-26 20:44:58.1848|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-26 20:44:58.5949|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-26 20:53:49.0553|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-26 20:53:49.4284|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-26 20:53:49.4703|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-26 20:53:49.5435|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-26 20:53:49.5899|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-26 20:53:50.3691|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-26 21:05:22.6434|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-26 21:05:22.8436|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-26 21:05:22.8898|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-26 21:05:22.9195|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-26 21:05:22.9407|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-26 21:05:23.4368|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-26 21:08:42.1556|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-26 21:08:42.3030|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-26 21:08:42.3164|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-26 21:08:42.3372|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-26 21:08:42.3568|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-26 21:08:42.8735|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-26 21:19:58.1283|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-26 21:19:58.3576|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-26 21:19:58.3881|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-26 21:19:58.4259|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-26 21:19:58.4590|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-26 21:19:59.0111|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-26 21:49:59.9375|0|IdentityServer4.EntityFramework.TokenCleanup|INFO|  Clearing 0 tokens |url: |action: 
+2018-03-26 22:13:07.5815|0|IdentityServer4.Hosting.IdentityServerAuthenticationService|DEBUG|  Augmenting SignInContext |url: http://localhost/Account/Login|action: Login
+2018-03-26 22:13:07.6355|0|IdentityServer4.Hosting.IdentityServerAuthenticationService|DEBUG|  Adding idp claim with value: local |url: http://localhost/Account/Login|action: Login
+2018-03-26 22:13:07.6594|0|IdentityServer4.Hosting.IdentityServerAuthenticationService|DEBUG|  Adding amr claim with value: pwd |url: http://localhost/Account/Login|action: Login
+2018-03-26 22:13:07.6935|0|IdentityServer4.Hosting.IdentityServerAuthenticationService|DEBUG|  Adding auth_time claim with value: 1522073587 |url: http://localhost/Account/Login|action: Login
+2018-03-26 22:13:07.8210|0|KiraNet.Camellia.AuthorizationServer.Controllers.AccountController|INFO|  User logged in. |url: http://localhost/Account/Login|action: Login
+2018-03-26 22:24:14.5589|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-26 22:24:14.7352|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-26 22:24:14.7502|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-26 22:24:14.7725|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-26 22:24:14.7980|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-26 22:24:15.4056|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-26 22:26:10.0284|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-26 22:26:10.1690|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-26 22:26:10.1897|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-26 22:26:10.2148|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-26 22:26:10.2364|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-26 22:26:10.7880|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-26 22:27:14.4926|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-26 22:27:14.6291|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-26 22:27:14.6440|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-26 22:27:14.6608|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-26 22:27:14.6745|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-26 22:27:15.1296|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-26 22:28:29.5562|0|KiraNet.Camellia.AuthorizationServer.Controllers.AccountController|INFO|  User logged out. |url: http://localhost/Account/Logout|action: Logout
+2018-03-26 22:38:23.1170|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-26 22:38:23.3290|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-26 22:38:23.4175|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-26 22:38:23.4658|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-26 22:38:23.4950|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-26 22:38:24.6311|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-26 23:02:34.9959|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-26 23:02:35.2091|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-26 23:02:35.2623|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-26 23:02:35.3321|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-26 23:02:35.4286|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-26 23:02:36.8076|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-26 23:13:11.1993|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-26 23:13:11.3426|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-26 23:13:11.3701|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-26 23:13:11.3930|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-26 23:13:11.4157|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-26 23:13:11.8920|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-26 23:25:10.2605|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-26 23:25:10.3964|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-26 23:25:10.4206|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-26 23:25:10.4386|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-26 23:25:10.4656|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-26 23:25:11.1692|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-26 23:26:39.7386|0|IdentityServer4.Hosting.IdentityServerAuthenticationService|DEBUG|  Augmenting SignInContext |url: http://localhost/Account/Login|action: Login
+2018-03-26 23:26:39.7677|0|IdentityServer4.Hosting.IdentityServerAuthenticationService|DEBUG|  Adding idp claim with value: local |url: http://localhost/Account/Login|action: Login
+2018-03-26 23:26:39.7861|0|IdentityServer4.Hosting.IdentityServerAuthenticationService|DEBUG|  Adding amr claim with value: pwd |url: http://localhost/Account/Login|action: Login
+2018-03-26 23:26:39.8068|0|IdentityServer4.Hosting.IdentityServerAuthenticationService|DEBUG|  Adding auth_time claim with value: 1522077999 |url: http://localhost/Account/Login|action: Login
+2018-03-26 23:26:39.8743|0|KiraNet.Camellia.AuthorizationServer.Controllers.AccountController|INFO|  User logged in. |url: http://localhost/Account/Login|action: Login

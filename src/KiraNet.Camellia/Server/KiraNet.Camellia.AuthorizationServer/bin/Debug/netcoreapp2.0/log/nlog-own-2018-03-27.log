@@ -1,0 +1,1359 @@
+2018-03-27 13:45:36.6111|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-27 13:45:37.1528|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-27 13:45:37.3092|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-27 13:45:37.4018|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-27 13:45:37.4421|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-27 13:45:39.2741|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-27 13:54:12.8653|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-27 13:54:13.0199|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-27 13:54:13.0508|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-27 13:54:13.0715|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-27 13:54:13.0930|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-27 13:54:13.6209|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-27 13:57:11.7328|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:11.8078|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:11.8475|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:11.9116|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:11.9618|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:11.9907|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:12.0411|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:13.1974|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:13.5329|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:13.7404|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/checksession matched to endpoint type Checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 13:57:13.7745|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:13.8043|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint |url: http://localhost/connect/checksession|action: 
+2018-03-27 13:57:13.8648|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:13.8981|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 13:57:13.9407|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:13.9764|0|IdentityServer4.Endpoints.CheckSessionEndpoint|DEBUG|  Rendering check session result |url: http://localhost/connect/checksession|action: 
+2018-03-27 13:57:14.0364|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:14.2604|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:14.8087|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/authorize matched to endpoint type Authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:14.8881|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:14.9384|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:15.1099|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  Start authorize request |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:15.1988|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  User in authorize request: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:15.2586|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Start authorize request protocol validation |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:15.5393|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:15.7285|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  ValidatedAuthorizeRequest
+{
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "RedirectUri": "http://localhost:5200/login-callback",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid profile email client_name",
+  "State": "c172ce5f991640afbd455f1a3e802afb",
+  "Nonce": "2c938f2c5f32418ea5eecf3d925584c3",
+  "SessionId": "5edf8a27bd454481052732e7ddeb31e5",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200/login-callback",
+    "response_type": "id_token token",
+    "scope": "openid profile email client_name",
+    "state": "c172ce5f991640afbd455f1a3e802afb",
+    "nonce": "2c938f2c5f32418ea5eecf3d925584c3"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:17.2596|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/authorize matched to endpoint type Authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:17.3835|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:17.5170|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:17.6409|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  Start authorize request |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:17.7006|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  User in authorize request: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:17.7462|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Start authorize request protocol validation |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:17.7865|0|IdentityServer4.Validation.AuthorizeRequestValidator|ERROR|  Invalid redirect_uri: http://localhost:5200
+{
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200",
+    "response_type": "id_token",
+    "scope": "openid",
+    "state": "c736ca69c559407486f9174610bf0245",
+    "nonce": "9a1ae89d2f4443009fa57b82ac59439f",
+    "prompt": "none"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:17.8741|0|IdentityServer4.Endpoints.AuthorizeEndpoint|ERROR|  Request validation failed |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:17.9154|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  {
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200",
+    "response_type": "id_token",
+    "scope": "openid",
+    "state": "c736ca69c559407486f9174610bf0245",
+    "nonce": "9a1ae89d2f4443009fa57b82ac59439f",
+    "prompt": "none"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:18.5317|0|IdentityServer4.EntityFramework.Stores.PersistedGrantStore|DEBUG|  ziDYl0wVbeUB5GMXmKZHGhpoXs9bjRe8ti7zHtwfzlI= found in database: True |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:19.2496|0|IdentityServer4.Services.DefaultConsentService|DEBUG|  Consent found in consent store is same as current request, consent is not required |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:19.4597|0|IdentityServer4.ResponseHandling.AuthorizeResponseGenerator|DEBUG|  Creating Implicit Flow response. |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:19.5701|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for access token for client: client_id |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:19.6684|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for access token for subject: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:22.5735|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for identity token for subject: 4b0bf01c-6fae-4ecc-9202-feada77ad388 and client: client_id |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:23.2887|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  Authorize endpoint response
+{
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "ClientId": "client_id",
+  "RedirectUri": "http://localhost:5200/login-callback",
+  "State": "c172ce5f991640afbd455f1a3e802afb",
+  "Scope": "openid profile email client_name"
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:23.7419|0|IdentityServer4.Hosting.IdentityServerAuthenticationService|DEBUG|  Augmenting SignInContext |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:32.6000|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:32.6304|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:32.6545|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:32.7148|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:32.7620|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:32.8526|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:32.9238|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:33.4003|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:33.5130|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:33.5472|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:33.6319|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:33.6806|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:33.7282|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:33.7699|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:34.1594|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/checksession matched to endpoint type Checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 13:57:34.2101|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint |url: http://localhost/connect/checksession|action: 
+2018-03-27 13:57:34.2574|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 13:57:34.3071|0|IdentityServer4.Endpoints.CheckSessionEndpoint|DEBUG|  Rendering check session result |url: http://localhost/connect/checksession|action: 
+2018-03-27 13:57:35.0136|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration/jwks from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:57:35.0502|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:57:35.0824|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:57:35.1384|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:57:35.1727|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:57:35.2025|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:57:35.2423|0|IdentityServer4.Endpoints.DiscoveryKeyEndpoint|DEBUG|  Start key discovery request |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:57:35.5056|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/authorize matched to endpoint type Authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:35.5315|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:35.5577|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:35.5870|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  Start authorize request |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:35.6131|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  User in authorize request: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:35.6385|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Start authorize request protocol validation |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:35.6650|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:35.7028|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  ValidatedAuthorizeRequest
+{
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "RedirectUri": "http://localhost:5200/login-callback",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid profile email client_name",
+  "State": "e371f58fbcf74352b47f88d2a2326fc4",
+  "Nonce": "44b2fb9a37764b93990b7c93a8dce797",
+  "SessionId": "5edf8a27bd454481052732e7ddeb31e5",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200/login-callback",
+    "response_type": "id_token token",
+    "scope": "openid profile email client_name",
+    "state": "e371f58fbcf74352b47f88d2a2326fc4",
+    "nonce": "44b2fb9a37764b93990b7c93a8dce797"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:35.9835|0|IdentityServer4.EntityFramework.Stores.PersistedGrantStore|DEBUG|  ziDYl0wVbeUB5GMXmKZHGhpoXs9bjRe8ti7zHtwfzlI= found in database: True |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:36.0578|0|IdentityServer4.Services.DefaultConsentService|DEBUG|  Consent found in consent store is same as current request, consent is not required |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:36.1252|0|IdentityServer4.ResponseHandling.AuthorizeResponseGenerator|DEBUG|  Creating Implicit Flow response. |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:36.1613|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for access token for client: client_id |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:36.2553|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for access token for subject: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:36.7392|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for identity token for subject: 4b0bf01c-6fae-4ecc-9202-feada77ad388 and client: client_id |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:37.0109|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  Authorize endpoint response
+{
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "ClientId": "client_id",
+  "RedirectUri": "http://localhost:5200/login-callback",
+  "State": "e371f58fbcf74352b47f88d2a2326fc4",
+  "Scope": "openid profile email client_name"
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:57:37.5468|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /connect/userinfo from origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:57:37.5725|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:57:37.6009|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:57:37.7878|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /connect/userinfo from origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:57:37.8149|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:57:37.8509|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:57:38.0648|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/userinfo matched to endpoint type Userinfo |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:57:38.1163|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Userinfo, successfully created handler: IdentityServer4.Endpoints.UserInfoEndpoint |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:57:38.1602|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:57:38.3146|0|IdentityServer4.Endpoints.UserInfoEndpoint|DEBUG|  Start userinfo request |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:57:38.3788|0|IdentityServer4.Validation.BearerTokenUsageValidator|DEBUG|  Bearer token found in header |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:57:38.9255|0|IdentityServer4.Hosting.IdentityServerMiddleware|FATAL|  Unhandled exception: The operation was canceled. The operation was canceled.|url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:57:56.1571|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:56.2315|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:56.2939|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:56.4444|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:56.5034|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:56.6208|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:56.7005|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:57.6817|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:57.7294|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:57.9291|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:58.0254|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:58.0774|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:58.1341|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:58.1898|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:57:58.7251|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/checksession matched to endpoint type Checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 13:57:58.7571|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint |url: http://localhost/connect/checksession|action: 
+2018-03-27 13:57:58.7859|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 13:57:58.8155|0|IdentityServer4.Endpoints.CheckSessionEndpoint|DEBUG|  Rendering check session result |url: http://localhost/connect/checksession|action: 
+2018-03-27 13:57:58.9447|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration/jwks from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:57:58.9804|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:57:59.0088|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:57:59.0753|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:57:59.1086|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:57:59.1410|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:57:59.1811|0|IdentityServer4.Endpoints.DiscoveryKeyEndpoint|DEBUG|  Start key discovery request |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:58:00.2429|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /connect/userinfo from origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:00.2712|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:00.3002|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:00.5001|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/authorize matched to endpoint type Authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:58:00.5310|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:58:00.5857|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:58:00.6266|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /connect/userinfo from origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:00.6708|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  Start authorize request |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:58:00.7593|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:00.7992|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  User in authorize request: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:58:00.8331|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:00.8648|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Start authorize request protocol validation |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:58:00.9254|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:58:00.9524|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/userinfo matched to endpoint type Userinfo |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:00.9906|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  ValidatedAuthorizeRequest
+{
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "RedirectUri": "http://localhost:5200/login-callback",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid profile email client_name",
+  "State": "db6785a7525f4921b328024dc2b643dc",
+  "Nonce": "84abd5c2042643978ef849df84e84b6f",
+  "SessionId": "5edf8a27bd454481052732e7ddeb31e5",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200/login-callback",
+    "response_type": "id_token token",
+    "scope": "openid profile email client_name",
+    "state": "db6785a7525f4921b328024dc2b643dc",
+    "nonce": "84abd5c2042643978ef849df84e84b6f"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:58:01.1770|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Userinfo, successfully created handler: IdentityServer4.Endpoints.UserInfoEndpoint |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:01.2712|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:01.3735|0|IdentityServer4.Endpoints.UserInfoEndpoint|DEBUG|  Start userinfo request |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:01.4462|0|IdentityServer4.Validation.BearerTokenUsageValidator|DEBUG|  Bearer token found in header |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:01.6678|0|IdentityServer4.EntityFramework.Stores.PersistedGrantStore|DEBUG|  ziDYl0wVbeUB5GMXmKZHGhpoXs9bjRe8ti7zHtwfzlI= found in database: True |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:58:01.7642|0|IdentityServer4.Validation.TokenValidator|DEBUG|  Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:01.7869|0|IdentityServer4.Services.DefaultConsentService|DEBUG|  Consent found in consent store is same as current request, consent is not required |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:58:01.8305|0|IdentityServer4.ResponseHandling.AuthorizeResponseGenerator|DEBUG|  Creating Implicit Flow response. |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:58:01.8864|0|IdentityServer4.Validation.TokenValidator|DEBUG|  Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "ExpectedScope": "openid",
+  "Claims": {
+    "nbf": 1522130256,
+    "exp": 1522131156,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "client_name"
+    ],
+    "client_id": "client_id",
+    "sub": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+    "auth_time": 1522077999,
+    "idp": "local",
+    "preferred_username": "admin",
+    "name": "admin",
+    "scope": [
+      "openid",
+      "profile",
+      "email",
+      "client_name"
+    ],
+    "amr": "pwd"
+  }
+} |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:01.9026|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for access token for client: client_id |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:58:01.9455|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for access token for subject: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:58:01.9887|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Creating userinfo response |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:02.1413|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Scopes in access token: openid profile email client_name |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:02.2596|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Scopes in access token: openid profile email client_name |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:02.3579|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Requested claim types: sub name family_name given_name middle_name nickname preferred_username profile picture website gender birthdate zoneinfo locale updated_at email email_verified |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:02.4183|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for identity token for subject: 4b0bf01c-6fae-4ecc-9202-feada77ad388 and client: client_id |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:58:02.4554|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Scopes in access token: openid profile email client_name |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:02.9414|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  Authorize endpoint response
+{
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "ClientId": "client_id",
+  "RedirectUri": "http://localhost:5200/login-callback",
+  "State": "db6785a7525f4921b328024dc2b643dc",
+  "Scope": "openid profile email client_name"
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 13:58:03.2276|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|INFO|  Profile service returned to the following claim types: sub preferred_username name email email_verified |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:03.3076|0|IdentityServer4.Endpoints.UserInfoEndpoint|DEBUG|  End userinfo request |url: http://localhost/connect/userinfo|action: 
+2018-03-27 13:58:13.4168|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:58:13.4408|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:58:13.4755|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:58:13.5497|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:58:13.5937|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:58:13.6299|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:58:13.6717|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:58:14.3439|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:58:14.3699|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:58:14.3941|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:58:14.4445|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:58:14.4712|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:58:14.4950|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:58:14.5249|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 13:58:14.7355|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/checksession matched to endpoint type Checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 13:58:14.7602|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint |url: http://localhost/connect/checksession|action: 
+2018-03-27 13:58:14.7875|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 13:58:14.8189|0|IdentityServer4.Endpoints.CheckSessionEndpoint|DEBUG|  Rendering check session result |url: http://localhost/connect/checksession|action: 
+2018-03-27 13:58:15.2327|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration/jwks from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:58:15.2678|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:58:15.3038|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:58:15.3850|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:58:15.4274|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:58:15.4665|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 13:58:15.4943|0|IdentityServer4.Endpoints.DiscoveryKeyEndpoint|DEBUG|  Start key discovery request |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 14:24:50.0506|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-27 14:24:50.2294|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-27 14:24:50.2673|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-27 14:24:50.2950|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-27 14:24:50.3180|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-27 14:24:51.3275|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-27 14:43:12.9806|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-27 14:43:13.4430|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-27 14:43:13.5447|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-27 14:43:13.6270|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-27 14:43:13.6708|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-27 14:43:14.3903|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-27 15:17:42.1454|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-27 15:17:42.7783|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-27 15:17:42.8123|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-27 15:17:42.8800|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-27 15:17:42.9799|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-27 15:17:43.7983|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-27 15:29:29.2343|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-27 15:29:29.4041|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-27 15:29:29.4734|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-27 15:29:29.5408|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-27 15:29:29.5870|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-27 15:29:30.5341|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-27 15:59:31.3487|0|IdentityServer4.EntityFramework.TokenCleanup|INFO|  Clearing 0 tokens |url: |action: 
+2018-03-27 18:43:50.0938|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-27 18:43:50.7688|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-27 18:43:50.9376|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-27 18:43:51.0637|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-27 18:43:51.3180|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-27 18:43:54.2362|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-27 18:46:12.0663|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:46:12.2320|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:46:12.2744|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:46:12.5813|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:46:12.7185|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:46:12.7990|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:46:13.0221|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:46:15.4854|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/authorize matched to endpoint type Authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:46:15.7489|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:46:15.9253|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:46:16.0019|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  Start authorize request |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:46:16.2526|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  No user present in authorize request |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:46:16.3304|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Start authorize request protocol validation |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:46:16.7512|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:46:17.3830|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  ValidatedAuthorizeRequest
+{
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "RedirectUri": "http://localhost:5200/login-callback",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "anonymous",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid profile email client_name",
+  "State": "b4788b0bc2044a07aaf9ff20bc00ff28",
+  "Nonce": "5ddb174f519b460693fe811fcd35152b",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200/login-callback",
+    "response_type": "id_token token",
+    "scope": "openid profile email client_name",
+    "state": "b4788b0bc2044a07aaf9ff20bc00ff28",
+    "nonce": "5ddb174f519b460693fe811fcd35152b"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:46:17.5114|0|IdentityServer4.ResponseHandling.AuthorizeInteractionResponseGenerator|INFO|  Showing login: User is not authenticated |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:46:39.2507|0|IdentityServer4.Hosting.IdentityServerAuthenticationService|DEBUG|  Augmenting SignInContext |url: http://localhost/Account/Login|action: Login
+2018-03-27 18:46:39.3023|0|IdentityServer4.Hosting.IdentityServerAuthenticationService|DEBUG|  Adding idp claim with value: local |url: http://localhost/Account/Login|action: Login
+2018-03-27 18:46:39.3454|0|IdentityServer4.Hosting.IdentityServerAuthenticationService|DEBUG|  Adding amr claim with value: pwd |url: http://localhost/Account/Login|action: Login
+2018-03-27 18:46:39.3810|0|IdentityServer4.Hosting.IdentityServerAuthenticationService|DEBUG|  Adding auth_time claim with value: 1522147599 |url: http://localhost/Account/Login|action: Login
+2018-03-27 18:46:39.5689|0|KiraNet.Camellia.AuthorizationServer.Controllers.AccountController|INFO|  User logged in. |url: http://localhost/Account/Login|action: Login
+2018-03-27 18:46:40.4295|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/authorize/callback matched to endpoint type Authorize |url: http://localhost/connect/authorize/callback|action: 
+2018-03-27 18:46:40.4822|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint |url: http://localhost/connect/authorize/callback|action: 
+2018-03-27 18:46:40.5456|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeCallbackEndpoint for /connect/authorize/callback |url: http://localhost/connect/authorize/callback|action: 
+2018-03-27 18:46:40.6488|0|IdentityServer4.Endpoints.AuthorizeCallbackEndpoint|DEBUG|  Start authorize callback request |url: http://localhost/connect/authorize/callback|action: 
+2018-03-27 18:46:40.7593|0|IdentityServer4.Endpoints.AuthorizeCallbackEndpoint|DEBUG|  User in authorize request: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize/callback|action: 
+2018-03-27 18:46:40.8338|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Start authorize request protocol validation |url: http://localhost/connect/authorize/callback|action: 
+2018-03-27 18:46:40.9268|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator |url: http://localhost/connect/authorize/callback|action: 
+2018-03-27 18:46:40.9941|0|IdentityServer4.Endpoints.AuthorizeCallbackEndpoint|INFO|  ValidatedAuthorizeRequest
+{
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "RedirectUri": "http://localhost:5200/login-callback",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid profile email client_name",
+  "State": "b4788b0bc2044a07aaf9ff20bc00ff28",
+  "Nonce": "5ddb174f519b460693fe811fcd35152b",
+  "SessionId": "0664bef3ee716747eb450d9fde3f40ee",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200/login-callback",
+    "response_type": "id_token token",
+    "scope": "openid profile email client_name",
+    "state": "b4788b0bc2044a07aaf9ff20bc00ff28",
+    "nonce": "5ddb174f519b460693fe811fcd35152b"
+  }
+} |url: http://localhost/connect/authorize/callback|action: 
+2018-03-27 18:46:42.4830|0|IdentityServer4.EntityFramework.Stores.PersistedGrantStore|DEBUG|  ziDYl0wVbeUB5GMXmKZHGhpoXs9bjRe8ti7zHtwfzlI= found in database: True |url: http://localhost/connect/authorize/callback|action: 
+2018-03-27 18:46:42.8265|0|IdentityServer4.Services.DefaultConsentService|DEBUG|  Consent found in consent store is same as current request, consent is not required |url: http://localhost/connect/authorize/callback|action: 
+2018-03-27 18:46:42.9305|0|IdentityServer4.ResponseHandling.AuthorizeResponseGenerator|DEBUG|  Creating Implicit Flow response. |url: http://localhost/connect/authorize/callback|action: 
+2018-03-27 18:46:43.0826|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for access token for client: client_id |url: http://localhost/connect/authorize/callback|action: 
+2018-03-27 18:46:43.1414|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for access token for subject: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize/callback|action: 
+2018-03-27 18:46:44.6757|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for identity token for subject: 4b0bf01c-6fae-4ecc-9202-feada77ad388 and client: client_id |url: http://localhost/connect/authorize/callback|action: 
+2018-03-27 18:46:45.0318|0|IdentityServer4.Endpoints.AuthorizeCallbackEndpoint|INFO|  Authorize endpoint response
+{
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "ClientId": "client_id",
+  "RedirectUri": "http://localhost:5200/login-callback",
+  "State": "b4788b0bc2044a07aaf9ff20bc00ff28",
+  "Scope": "openid profile email client_name"
+} |url: http://localhost/connect/authorize/callback|action: 
+2018-03-27 18:46:45.2658|0|IdentityServer4.Hosting.IdentityServerAuthenticationService|DEBUG|  Augmenting SignInContext |url: http://localhost/connect/authorize/callback|action: 
+2018-03-27 18:46:51.5435|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:46:51.8420|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:46:51.9322|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:46:52.7619|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:46:52.9445|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:46:53.0525|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:46:53.1153|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:46:53.3280|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration/jwks from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:46:53.3812|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:46:53.4243|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:46:53.5042|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:46:53.5447|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:46:53.5869|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:46:53.6620|0|IdentityServer4.Endpoints.DiscoveryKeyEndpoint|DEBUG|  Start key discovery request |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:46:54.3719|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /connect/userinfo from origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:54.8137|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:55.3388|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:56.6222|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /connect/userinfo from origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:56.7420|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:56.7792|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:56.8599|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/userinfo matched to endpoint type Userinfo |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:56.9121|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Userinfo, successfully created handler: IdentityServer4.Endpoints.UserInfoEndpoint |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:56.9585|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:57.0451|0|IdentityServer4.Endpoints.UserInfoEndpoint|DEBUG|  Start userinfo request |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:57.0967|0|IdentityServer4.Validation.BearerTokenUsageValidator|DEBUG|  Bearer token found in header |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:57.5106|0|IdentityServer4.Validation.TokenValidator|DEBUG|  Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:57.5755|0|IdentityServer4.Validation.TokenValidator|DEBUG|  Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "ExpectedScope": "openid",
+  "Claims": {
+    "nbf": 1522147604,
+    "exp": 1522148504,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "client_name"
+    ],
+    "client_id": "client_id",
+    "sub": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+    "auth_time": 1522147599,
+    "idp": "local",
+    "preferred_username": "admin",
+    "name": "admin",
+    "scope": [
+      "openid",
+      "profile",
+      "email",
+      "client_name"
+    ],
+    "amr": "pwd"
+  }
+} |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:57.6630|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Creating userinfo response |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:57.7364|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Scopes in access token: openid profile email client_name |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:57.8064|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Scopes in access token: openid profile email client_name |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:57.9008|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Requested claim types: sub name family_name given_name middle_name nickname preferred_username profile picture website gender birthdate zoneinfo locale updated_at email email_verified |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:57.9624|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Scopes in access token: openid profile email client_name |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:58.6427|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|INFO|  Profile service returned to the following claim types: sub preferred_username name email email_verified |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:58.7140|0|IdentityServer4.Endpoints.UserInfoEndpoint|DEBUG|  End userinfo request |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:46:59.4438|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/checksession matched to endpoint type Checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:46:59.6328|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:47:00.2305|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:47:00.5093|0|IdentityServer4.Endpoints.CheckSessionEndpoint|DEBUG|  Rendering check session result |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:47:02.7974|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:47:02.8262|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:47:02.8917|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:47:02.9630|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:47:02.9937|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:47:03.0238|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:47:03.0518|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:47:03.3034|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/checksession matched to endpoint type Checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:47:03.4226|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:47:03.5583|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:47:04.0067|0|IdentityServer4.Endpoints.CheckSessionEndpoint|DEBUG|  Rendering check session result |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:47:06.2821|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/authorize matched to endpoint type Authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:47:06.3570|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:47:06.6432|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:47:06.7547|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  Start authorize request |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:47:06.8257|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  User in authorize request: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:47:06.8612|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Start authorize request protocol validation |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:47:06.9063|0|IdentityServer4.Validation.AuthorizeRequestValidator|ERROR|  Invalid redirect_uri: http://localhost:5200
+{
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200",
+    "response_type": "id_token",
+    "scope": "openid",
+    "state": "e003dfbe152b4433b0b02150eddcd6a0",
+    "nonce": "e3a236e4102e45d6a7f32e0f58d230a4",
+    "prompt": "none"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:47:06.9850|0|IdentityServer4.Endpoints.AuthorizeEndpoint|ERROR|  Request validation failed |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:47:07.1178|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  {
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200",
+    "response_type": "id_token",
+    "scope": "openid",
+    "state": "e003dfbe152b4433b0b02150eddcd6a0",
+    "nonce": "e3a236e4102e45d6a7f32e0f58d230a4",
+    "prompt": "none"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:48:40.4463|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-27 18:48:40.9420|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-27 18:48:41.3986|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-27 18:48:41.6430|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-27 18:48:41.7725|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-27 18:48:45.8100|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-27 18:48:55.0476|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:48:55.1110|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:48:55.1608|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:48:55.2284|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:48:57.6388|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:48:57.6882|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:48:57.9510|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:48:58.0097|0|IdentityServer4.Endpoints.DiscoveryKeyEndpoint|DEBUG|  Start key discovery request |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:54:12.4451|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-03-27 18:54:12.7105|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-03-27 18:54:12.7363|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-03-27 18:54:12.7778|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-03-27 18:54:12.8354|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-03-27 18:54:14.0121|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-03-27 18:54:22.0373|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:54:22.1594|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:54:22.2782|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:54:22.4140|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:54:24.0309|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:54:24.0673|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:54:24.1086|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:54:24.1694|0|IdentityServer4.Endpoints.DiscoveryKeyEndpoint|DEBUG|  Start key discovery request |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:56:32.3789|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:56:38.1420|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:56:41.0129|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:56:43.9711|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:56:45.2391|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:56:46.2777|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:56:47.2877|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:56:59.3321|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/checksession matched to endpoint type Checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:57:02.6866|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:57:05.2503|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:57:06.7099|0|IdentityServer4.Endpoints.CheckSessionEndpoint|DEBUG|  Rendering check session result |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:57:23.5310|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:23.6508|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:23.9056|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:24.0428|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:24.0842|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:24.5146|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:24.7023|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:25.3560|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/checksession matched to endpoint type Checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:57:25.5031|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:57:25.5807|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:57:25.6283|0|IdentityServer4.Endpoints.CheckSessionEndpoint|DEBUG|  Rendering check session result |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:57:28.2750|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/authorize matched to endpoint type Authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:28.3542|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:28.4133|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:28.4917|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  Start authorize request |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:28.6450|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  User in authorize request: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:28.7112|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Start authorize request protocol validation |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:29.0123|0|IdentityServer4.Validation.AuthorizeRequestValidator|ERROR|  Invalid redirect_uri: http://localhost:5200
+{
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200",
+    "response_type": "id_token",
+    "scope": "openid",
+    "state": "54aecccb94cd4ed58bcbae62fc2f0601",
+    "nonce": "6d70da89f9a04a2c87cb60ccd2e02581",
+    "prompt": "none"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:29.0598|0|IdentityServer4.Endpoints.AuthorizeEndpoint|ERROR|  Request validation failed |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:29.0952|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  {
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200",
+    "response_type": "id_token",
+    "scope": "openid",
+    "state": "54aecccb94cd4ed58bcbae62fc2f0601",
+    "nonce": "6d70da89f9a04a2c87cb60ccd2e02581",
+    "prompt": "none"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:38.3699|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:38.4643|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:38.5214|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:38.6250|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:38.6702|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:38.7239|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:38.7716|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:39.4676|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/authorize matched to endpoint type Authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:39.5234|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:39.6122|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:39.6895|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  Start authorize request |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:39.7611|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  User in authorize request: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:39.8179|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Start authorize request protocol validation |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:40.7891|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:40.9883|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  ValidatedAuthorizeRequest
+{
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "RedirectUri": "http://localhost:5200/login-callback",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid profile email client_name",
+  "State": "ef56a7c741cf421d8e7b842a9eb4a745",
+  "Nonce": "86157b6373c64754949d0017fa6288f5",
+  "SessionId": "0664bef3ee716747eb450d9fde3f40ee",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200/login-callback",
+    "response_type": "id_token token",
+    "scope": "openid profile email client_name",
+    "state": "ef56a7c741cf421d8e7b842a9eb4a745",
+    "nonce": "86157b6373c64754949d0017fa6288f5"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:42.9851|0|IdentityServer4.EntityFramework.Stores.PersistedGrantStore|DEBUG|  ziDYl0wVbeUB5GMXmKZHGhpoXs9bjRe8ti7zHtwfzlI= found in database: True |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:43.1145|0|IdentityServer4.Services.DefaultConsentService|DEBUG|  Consent found in consent store is same as current request, consent is not required |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:43.2091|0|IdentityServer4.ResponseHandling.AuthorizeResponseGenerator|DEBUG|  Creating Implicit Flow response. |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:43.2997|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for access token for client: client_id |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:43.3411|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for access token for subject: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:44.9830|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for identity token for subject: 4b0bf01c-6fae-4ecc-9202-feada77ad388 and client: client_id |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:46.4114|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  Authorize endpoint response
+{
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "ClientId": "client_id",
+  "RedirectUri": "http://localhost:5200/login-callback",
+  "State": "ef56a7c741cf421d8e7b842a9eb4a745",
+  "Scope": "openid profile email client_name"
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:57:55.8389|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:55.9870|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:56.0881|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:56.8680|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:56.9227|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:57.0677|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:57.1107|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:57:57.3812|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration/jwks from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:57:57.4487|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:57:57.5960|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:57:58.2142|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:57:58.3520|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:57:58.5461|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:57:58.6114|0|IdentityServer4.Endpoints.DiscoveryKeyEndpoint|DEBUG|  Start key discovery request |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:57:59.1185|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /connect/userinfo from origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:57:59.1981|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:57:59.2496|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:57:59.5977|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /connect/userinfo from origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:57:59.6834|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:57:59.7367|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:57:59.8190|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/userinfo matched to endpoint type Userinfo |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:57:59.8749|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Userinfo, successfully created handler: IdentityServer4.Endpoints.UserInfoEndpoint |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:57:59.9221|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:58:00.0685|0|IdentityServer4.Endpoints.UserInfoEndpoint|DEBUG|  Start userinfo request |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:58:00.1163|0|IdentityServer4.Validation.BearerTokenUsageValidator|DEBUG|  Bearer token found in header |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:58:00.6211|0|IdentityServer4.Validation.TokenValidator|DEBUG|  Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:58:00.6751|0|IdentityServer4.Validation.TokenValidator|DEBUG|  Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "ExpectedScope": "openid",
+  "Claims": {
+    "nbf": 1522148264,
+    "exp": 1522149164,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "client_name"
+    ],
+    "client_id": "client_id",
+    "sub": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+    "auth_time": 1522147599,
+    "idp": "local",
+    "preferred_username": "admin",
+    "name": "admin",
+    "email": "997525106@qq.com",
+    "scope": [
+      "openid",
+      "profile",
+      "email",
+      "client_name"
+    ],
+    "amr": "pwd"
+  }
+} |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:58:00.7318|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Creating userinfo response |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:58:00.7773|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Scopes in access token: openid profile email client_name |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:58:00.8208|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Scopes in access token: openid profile email client_name |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:58:00.8835|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Requested claim types: sub name family_name given_name middle_name nickname preferred_username profile picture website gender birthdate zoneinfo locale updated_at email email_verified |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:58:00.9242|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Scopes in access token: openid profile email client_name |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:58:01.3037|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|INFO|  Profile service returned to the following claim types: sub preferred_username name email email_verified |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:58:01.3540|0|IdentityServer4.Endpoints.UserInfoEndpoint|DEBUG|  End userinfo request |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:58:03.6533|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/checksession matched to endpoint type Checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:58:03.7158|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:58:03.9261|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:58:03.9994|0|IdentityServer4.Endpoints.CheckSessionEndpoint|DEBUG|  Rendering check session result |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:58:08.4615|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:58:08.6472|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:58:08.7070|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:58:09.2036|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:58:09.4567|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:58:09.5450|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:58:09.5805|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:58:09.9778|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/checksession matched to endpoint type Checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:58:10.0733|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:58:10.2241|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:58:11.1159|0|IdentityServer4.Endpoints.CheckSessionEndpoint|DEBUG|  Rendering check session result |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:58:13.7875|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/authorize matched to endpoint type Authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:58:13.8436|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:58:13.9123|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:58:13.9753|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  Start authorize request |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:58:14.1565|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  User in authorize request: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:58:14.3368|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Start authorize request protocol validation |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:58:14.9986|0|IdentityServer4.Validation.AuthorizeRequestValidator|ERROR|  Invalid redirect_uri: http://localhost:5200
+{
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200",
+    "response_type": "id_token",
+    "scope": "openid",
+    "state": "33b236f3273d41e79c011f820413d248",
+    "nonce": "503f2731a3b14a138a43807fda9e8ab2",
+    "prompt": "none"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:58:15.0604|0|IdentityServer4.Endpoints.AuthorizeEndpoint|ERROR|  Request validation failed |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:58:15.1274|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  {
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200",
+    "response_type": "id_token",
+    "scope": "openid",
+    "state": "33b236f3273d41e79c011f820413d248",
+    "nonce": "503f2731a3b14a138a43807fda9e8ab2",
+    "prompt": "none"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:59:23.8565|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:59:25.6960|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:59:25.9433|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:59:27.3956|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:59:27.8259|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:59:28.2311|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:59:28.8762|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:59:31.3867|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/authorize matched to endpoint type Authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:59:31.4774|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:59:31.6408|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:59:32.0733|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  Start authorize request |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:59:32.2258|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  User in authorize request: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:59:32.3479|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Start authorize request protocol validation |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:59:32.5478|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:59:32.6269|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  ValidatedAuthorizeRequest
+{
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "RedirectUri": "http://localhost:5200/login-callback",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid profile email client_name",
+  "State": "0a00ce499a874dd6825d11b96d80d411",
+  "Nonce": "baf0cc365e8b43cfa3dfbffa66ecec57",
+  "SessionId": "0664bef3ee716747eb450d9fde3f40ee",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200/login-callback",
+    "response_type": "id_token token",
+    "scope": "openid profile email client_name",
+    "state": "0a00ce499a874dd6825d11b96d80d411",
+    "nonce": "baf0cc365e8b43cfa3dfbffa66ecec57"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:59:35.1742|0|IdentityServer4.EntityFramework.Stores.PersistedGrantStore|DEBUG|  ziDYl0wVbeUB5GMXmKZHGhpoXs9bjRe8ti7zHtwfzlI= found in database: True |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:59:35.9077|0|IdentityServer4.Services.DefaultConsentService|DEBUG|  Consent found in consent store is same as current request, consent is not required |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:59:36.4322|0|IdentityServer4.ResponseHandling.AuthorizeResponseGenerator|DEBUG|  Creating Implicit Flow response. |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:59:36.7253|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for access token for client: client_id |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:59:36.9015|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for access token for subject: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:59:38.9190|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for identity token for subject: 4b0bf01c-6fae-4ecc-9202-feada77ad388 and client: client_id |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:59:40.6737|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  Authorize endpoint response
+{
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "ClientId": "client_id",
+  "RedirectUri": "http://localhost:5200/login-callback",
+  "State": "0a00ce499a874dd6825d11b96d80d411",
+  "Scope": "openid profile email client_name"
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 18:59:50.4873|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:59:51.2410|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:59:52.1746|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:59:53.5377|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:59:53.6458|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:59:53.7179|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:59:53.7556|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 18:59:53.9533|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration/jwks from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:59:53.9858|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:59:54.0151|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:59:54.0769|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:59:54.1070|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:59:54.1386|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:59:54.1835|0|IdentityServer4.Endpoints.DiscoveryKeyEndpoint|DEBUG|  Start key discovery request |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 18:59:54.7981|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /connect/userinfo from origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:54.8667|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:55.0247|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:55.2460|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /connect/userinfo from origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:55.2735|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:55.3048|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:55.3783|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/userinfo matched to endpoint type Userinfo |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:55.4305|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Userinfo, successfully created handler: IdentityServer4.Endpoints.UserInfoEndpoint |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:55.4680|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:55.5154|0|IdentityServer4.Endpoints.UserInfoEndpoint|DEBUG|  Start userinfo request |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:55.5701|0|IdentityServer4.Validation.BearerTokenUsageValidator|DEBUG|  Bearer token found in header |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:55.7632|0|IdentityServer4.Validation.TokenValidator|DEBUG|  Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:55.8360|0|IdentityServer4.Validation.TokenValidator|DEBUG|  Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "ExpectedScope": "openid",
+  "Claims": {
+    "nbf": 1522148378,
+    "exp": 1522149278,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "client_name"
+    ],
+    "client_id": "client_id",
+    "sub": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+    "auth_time": 1522147599,
+    "idp": "local",
+    "preferred_username": "admin",
+    "name": "admin",
+    "email": "997525106@qq.com",
+    "scope": [
+      "openid",
+      "profile",
+      "email",
+      "client_name"
+    ],
+    "amr": "pwd"
+  }
+} |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:55.8767|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Creating userinfo response |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:55.9465|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Scopes in access token: openid profile email client_name |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:56.0069|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Scopes in access token: openid profile email client_name |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:56.0723|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Requested claim types: sub name family_name given_name middle_name nickname preferred_username profile picture website gender birthdate zoneinfo locale updated_at email email_verified |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:56.1876|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Scopes in access token: openid profile email client_name |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:56.5315|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|INFO|  Profile service returned to the following claim types: sub preferred_username name email email_verified |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:56.5952|0|IdentityServer4.Endpoints.UserInfoEndpoint|DEBUG|  End userinfo request |url: http://localhost/connect/userinfo|action: 
+2018-03-27 18:59:57.4141|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/checksession matched to endpoint type Checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:59:57.4712|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:59:57.5154|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 18:59:57.5688|0|IdentityServer4.Endpoints.CheckSessionEndpoint|DEBUG|  Rendering check session result |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:00:26.5767|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:00:28.3639|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:00:28.9239|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:00:29.3149|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:00:29.7917|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:00:29.9719|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:00:30.1876|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:00:32.2488|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/checksession matched to endpoint type Checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:00:32.5505|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:00:32.7814|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:00:33.0964|0|IdentityServer4.Endpoints.CheckSessionEndpoint|DEBUG|  Rendering check session result |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:00:40.4497|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/authorize matched to endpoint type Authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:00:41.4892|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:00:42.3839|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:00:43.5089|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  Start authorize request |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:00:45.0851|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  User in authorize request: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:00:47.0491|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Start authorize request protocol validation |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:00:47.9578|0|IdentityServer4.Validation.AuthorizeRequestValidator|ERROR|  Invalid redirect_uri: http://localhost:5200
+{
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200",
+    "response_type": "id_token",
+    "scope": "openid",
+    "state": "2a3f9ffd884b44ec99614e05ac06a19b",
+    "nonce": "36ccfb33aeac4b2aa9b63f59a75bf93a",
+    "prompt": "none"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:00:48.6966|0|IdentityServer4.Endpoints.AuthorizeEndpoint|ERROR|  Request validation failed |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:00:50.1913|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  {
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200",
+    "response_type": "id_token",
+    "scope": "openid",
+    "state": "2a3f9ffd884b44ec99614e05ac06a19b",
+    "nonce": "36ccfb33aeac4b2aa9b63f59a75bf93a",
+    "prompt": "none"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:04.2350|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:04.4854|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:04.7639|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:05.2865|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:05.9047|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:06.1314|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:06.2976|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:07.9938|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/checksession matched to endpoint type Checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:01:08.0602|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:01:08.1832|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:01:08.2325|0|IdentityServer4.Endpoints.CheckSessionEndpoint|DEBUG|  Rendering check session result |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:01:10.9033|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/authorize matched to endpoint type Authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:10.9515|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:11.0096|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:11.1084|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  Start authorize request |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:11.1581|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  User in authorize request: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:11.2219|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Start authorize request protocol validation |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:11.3169|0|IdentityServer4.Validation.AuthorizeRequestValidator|ERROR|  Invalid redirect_uri: http://localhost:5200
+{
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200",
+    "response_type": "id_token",
+    "scope": "openid",
+    "state": "121f56788163496389690e65cdf93b81",
+    "nonce": "119001169dee4a7eac7220b8bc0cfa1f",
+    "prompt": "none"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:11.3942|0|IdentityServer4.Endpoints.AuthorizeEndpoint|ERROR|  Request validation failed |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:11.4688|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  {
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200",
+    "response_type": "id_token",
+    "scope": "openid",
+    "state": "121f56788163496389690e65cdf93b81",
+    "nonce": "119001169dee4a7eac7220b8bc0cfa1f",
+    "prompt": "none"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:30.3481|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:30.4087|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:30.4719|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:30.5515|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:30.6073|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:30.6445|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:30.6889|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:31.3445|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/authorize matched to endpoint type Authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:31.4530|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:31.4967|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:31.5424|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  Start authorize request |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:31.6133|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  User in authorize request: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:31.6483|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Start authorize request protocol validation |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:31.7080|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Calling into custom validator: IdentityServer4.Validation.DefaultCustomAuthorizeRequestValidator |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:31.7647|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  ValidatedAuthorizeRequest
+{
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "RedirectUri": "http://localhost:5200/login-callback",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "ResponseType": "id_token token",
+  "ResponseMode": "fragment",
+  "GrantType": "implicit",
+  "RequestedScopes": "openid profile email client_name",
+  "State": "d612e49cc6574797b6a8026285f435b1",
+  "Nonce": "b9920c9bee0f4d3a9467a8ad0735b707",
+  "SessionId": "0664bef3ee716747eb450d9fde3f40ee",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200/login-callback",
+    "response_type": "id_token token",
+    "scope": "openid profile email client_name",
+    "state": "d612e49cc6574797b6a8026285f435b1",
+    "nonce": "b9920c9bee0f4d3a9467a8ad0735b707"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:32.4932|0|IdentityServer4.EntityFramework.Stores.PersistedGrantStore|DEBUG|  ziDYl0wVbeUB5GMXmKZHGhpoXs9bjRe8ti7zHtwfzlI= found in database: True |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:32.5871|0|IdentityServer4.Services.DefaultConsentService|DEBUG|  Consent found in consent store is same as current request, consent is not required |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:32.6536|0|IdentityServer4.ResponseHandling.AuthorizeResponseGenerator|DEBUG|  Creating Implicit Flow response. |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:32.7261|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for access token for client: client_id |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:32.7878|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for access token for subject: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:33.4186|0|IdentityServer4.Services.DefaultClaimsService|DEBUG|  Getting claims for identity token for subject: 4b0bf01c-6fae-4ecc-9202-feada77ad388 and client: client_id |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:33.8248|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  Authorize endpoint response
+{
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "ClientId": "client_id",
+  "RedirectUri": "http://localhost:5200/login-callback",
+  "State": "d612e49cc6574797b6a8026285f435b1",
+  "Scope": "openid profile email client_name"
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:39.4168|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:39.5364|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:39.5785|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:39.6757|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:39.7269|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:39.7911|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:39.8388|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:01:39.9973|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration/jwks from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 19:01:40.0462|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 19:01:40.0782|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 19:01:40.2650|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 19:01:40.3190|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 19:01:40.3684|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 19:01:40.4175|0|IdentityServer4.Endpoints.DiscoveryKeyEndpoint|DEBUG|  Start key discovery request |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-03-27 19:01:40.7538|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /connect/userinfo from origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:40.7943|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:40.8375|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:41.0854|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /connect/userinfo from origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:41.1280|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:41.2369|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:41.8244|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/userinfo matched to endpoint type Userinfo |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:41.8863|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Userinfo, successfully created handler: IdentityServer4.Endpoints.UserInfoEndpoint |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:41.9274|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.UserInfoEndpoint for /connect/userinfo |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:41.9650|0|IdentityServer4.Endpoints.UserInfoEndpoint|DEBUG|  Start userinfo request |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:42.0166|0|IdentityServer4.Validation.BearerTokenUsageValidator|DEBUG|  Bearer token found in header |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:42.3441|0|IdentityServer4.Validation.TokenValidator|DEBUG|  Calling into custom token validator: IdentityServer4.Validation.DefaultCustomTokenValidator |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:42.4185|0|IdentityServer4.Validation.TokenValidator|DEBUG|  Token validation success
+{
+  "ValidateLifetime": true,
+  "AccessTokenType": "Jwt",
+  "ExpectedScope": "openid",
+  "Claims": {
+    "nbf": 1522148493,
+    "exp": 1522149393,
+    "iss": "http://localhost:5000",
+    "aud": [
+      "http://localhost:5000/resources",
+      "client_name"
+    ],
+    "client_id": "client_id",
+    "sub": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+    "auth_time": 1522147599,
+    "idp": "local",
+    "preferred_username": "admin",
+    "name": "admin",
+    "email": "997525106@qq.com",
+    "scope": [
+      "openid",
+      "profile",
+      "email",
+      "client_name"
+    ],
+    "amr": "pwd"
+  }
+} |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:42.4838|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Creating userinfo response |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:42.5634|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Scopes in access token: openid profile email client_name |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:42.6261|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Scopes in access token: openid profile email client_name |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:42.6836|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Requested claim types: sub name family_name given_name middle_name nickname preferred_username profile picture website gender birthdate zoneinfo locale updated_at email email_verified |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:42.7457|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|DEBUG|  Scopes in access token: openid profile email client_name |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:43.1088|0|IdentityServer4.ResponseHandling.UserInfoResponseGenerator|INFO|  Profile service returned to the following claim types: sub preferred_username name email email_verified |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:43.1616|0|IdentityServer4.Endpoints.UserInfoEndpoint|DEBUG|  End userinfo request |url: http://localhost/connect/userinfo|action: 
+2018-03-27 19:01:43.8369|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/checksession matched to endpoint type Checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:01:43.8879|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:01:43.9189|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:01:43.9622|0|IdentityServer4.Endpoints.CheckSessionEndpoint|DEBUG|  Rendering check session result |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:01:48.2568|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/authorize matched to endpoint type Authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:48.3164|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:48.3503|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:48.3897|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  Start authorize request |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:48.4215|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  User in authorize request: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:48.4552|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Start authorize request protocol validation |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:48.4924|0|IdentityServer4.Validation.AuthorizeRequestValidator|ERROR|  Invalid redirect_uri: http://localhost:5200
+{
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200",
+    "response_type": "id_token",
+    "scope": "openid",
+    "state": "2accd518646c40b297c7a4560b97f522",
+    "nonce": "548eb905e27642f69026c9d9929f4418",
+    "prompt": "none"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:48.6044|0|IdentityServer4.Endpoints.AuthorizeEndpoint|ERROR|  Request validation failed |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:01:48.6687|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  {
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200",
+    "response_type": "id_token",
+    "scope": "openid",
+    "state": "2accd518646c40b297c7a4560b97f522",
+    "nonce": "548eb905e27642f69026c9d9929f4418",
+    "prompt": "none"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:04:01.3432|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:04:01.4189|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:04:01.4536|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:04:01.6912|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:04:01.7709|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:04:01.9084|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:04:02.0521|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:04:03.5639|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/checksession matched to endpoint type Checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:04:03.6067|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:04:03.6461|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:04:03.6892|0|IdentityServer4.Endpoints.CheckSessionEndpoint|DEBUG|  Rendering check session result |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:04:07.1786|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/authorize matched to endpoint type Authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:04:07.2189|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:04:07.2558|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:04:07.2854|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  Start authorize request |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:04:07.3157|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  User in authorize request: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:04:07.3403|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Start authorize request protocol validation |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:04:07.3724|0|IdentityServer4.Validation.AuthorizeRequestValidator|ERROR|  Invalid redirect_uri: http://localhost:5200
+{
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200",
+    "response_type": "id_token",
+    "scope": "openid",
+    "state": "2db2f95df6bf406c938649422c7bc8c4",
+    "nonce": "827d63bd0a88441f95d942c209bd7ad1",
+    "prompt": "none"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:04:07.4053|0|IdentityServer4.Endpoints.AuthorizeEndpoint|ERROR|  Request validation failed |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:04:07.4377|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  {
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200",
+    "response_type": "id_token",
+    "scope": "openid",
+    "state": "2db2f95df6bf406c938649422c7bc8c4",
+    "nonce": "827d63bd0a88441f95d942c209bd7ad1",
+    "prompt": "none"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:06:03.5404|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:06:03.6704|0|IdentityServer4.Services.InMemoryCorsPolicyService|DEBUG|  Client list checked and origin: http://localhost:5200 is allowed |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:06:03.7321|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:06:03.8017|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:06:03.8563|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:06:03.8930|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:06:03.9347|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-03-27 19:06:05.8338|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/checksession matched to endpoint type Checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:06:05.8835|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:06:05.9211|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:06:05.9718|0|IdentityServer4.Endpoints.CheckSessionEndpoint|DEBUG|  Rendering check session result |url: http://localhost/connect/checksession|action: 
+2018-03-27 19:06:10.0073|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/authorize matched to endpoint type Authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:06:10.0670|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Authorize, successfully created handler: IdentityServer4.Endpoints.AuthorizeEndpoint |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:06:10.1128|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.AuthorizeEndpoint for /connect/authorize |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:06:10.2897|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  Start authorize request |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:06:10.9290|0|IdentityServer4.Endpoints.AuthorizeEndpoint|DEBUG|  User in authorize request: 4b0bf01c-6fae-4ecc-9202-feada77ad388 |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:06:11.1713|0|IdentityServer4.Validation.AuthorizeRequestValidator|DEBUG|  Start authorize request protocol validation |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:06:11.2302|0|IdentityServer4.Validation.AuthorizeRequestValidator|ERROR|  Invalid redirect_uri: http://localhost:5200
+{
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200",
+    "response_type": "id_token",
+    "scope": "openid",
+    "state": "db128a0e96a345ec9cc1f7c150f099a7",
+    "nonce": "9f716ea453bb43abbb8fb2fabd13fb0e",
+    "prompt": "none"
+  }
+} |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:06:11.2795|0|IdentityServer4.Endpoints.AuthorizeEndpoint|ERROR|  Request validation failed |url: http://localhost/connect/authorize|action: 
+2018-03-27 19:06:11.4748|0|IdentityServer4.Endpoints.AuthorizeEndpoint|INFO|  {
+  "ClientId": "client_id",
+  "ClientName": "client_name",
+  "AllowedRedirectUris": [
+    "http://localhost:5200/login-callback"
+  ],
+  "SubjectId": "4b0bf01c-6fae-4ecc-9202-feada77ad388",
+  "RequestedScopes": "",
+  "Raw": {
+    "client_id": "client_id",
+    "redirect_uri": "http://localhost:5200",
+    "response_type": "id_token",
+    "scope": "openid",
+    "state": "db128a0e96a345ec9cc1f7c150f099a7",
+    "nonce": "9f716ea453bb43abbb8fb2fabd13fb0e",
+    "prompt": "none"
+  }
+} |url: http://localhost/connect/authorize|action: 

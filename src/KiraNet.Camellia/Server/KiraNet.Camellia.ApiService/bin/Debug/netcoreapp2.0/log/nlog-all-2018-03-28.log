@@ -1,0 +1,37 @@
+2018-03-28 14:25:45.9314|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/   
+2018-03-28 14:25:47.2440|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2274.5083ms 200 text/html 
+2018-03-28 15:42:17.6584|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/   
+2018-03-28 15:42:19.7290|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1641.0143ms 200 text/html 
+2018-03-28 15:42:21.4118|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/v1/swagger.json   
+2018-03-28 15:42:22.0523|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 584.1193ms 200 application/json 
+2018-03-28 16:00:24.2851|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/   
+2018-03-28 16:00:25.2839|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1222.6231ms 200 text/html 
+2018-03-28 16:00:28.7222|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/v1/swagger.json   
+2018-03-28 16:00:29.8516|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1085.6881ms 200 application/json 
+2018-03-28 17:22:24.6356|22|Microsoft.AspNetCore.Server.Kestrel|WARN|Heartbeat took longer than "00:00:01" at "03/28/2018 09:22:24 +00:00". 
+2018-03-28 17:22:25.9571|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/   
+2018-03-28 17:22:28.0300|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 2658.0908ms 200 text/html 
+2018-03-28 20:11:19.4174|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/   
+2018-03-28 20:11:20.7611|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 932.7296ms 200 text/html 
+2018-03-28 20:11:20.8608|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/swagger-ui-standalone-preset.js   
+2018-03-28 20:11:20.9229|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/swagger-ui.css   
+2018-03-28 20:11:21.2685|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/swagger-ui-bundle.js   
+2018-03-28 20:11:21.5494|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2018-03-28 20:11:21.6559|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2018-03-28 20:11:21.7344|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1464.4897ms 0 application/javascript 
+2018-03-28 20:11:21.7535|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2018-03-28 20:11:21.8065|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1565.0279ms 0 application/javascript 
+2018-03-28 20:11:21.8364|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1629.8109ms 0 text/css 
+2018-03-28 22:14:55.0610|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/   
+2018-03-28 22:14:55.9321|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/swagger-ui-bundle.js   
+2018-03-28 22:14:55.9841|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 559.8689ms 200 text/html 
+2018-03-28 22:14:56.0056|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/swagger-ui-standalone-preset.js   
+2018-03-28 22:14:56.1130|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A' 
+2018-03-28 22:14:56.4546|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/swagger-ui.css   
+2018-03-28 22:14:56.5175|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A' 
+2018-03-28 22:14:56.5867|2|Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware|INFO|Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A' 
+2018-03-28 22:14:56.6128|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 847.3406ms 200 application/javascript 
+2018-03-28 22:14:56.7206|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 230.0791ms 200 text/css 
+2018-03-28 22:14:57.1640|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 1528.7442ms 200 application/javascript 
+2018-03-28 22:14:58.3778|1|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request starting HTTP/1.1 GET http://localhost:5100/swagger/v1/swagger.json   
+2018-03-28 22:14:59.4867|2|Microsoft.AspNetCore.Hosting.Internal.WebHost|INFO|Request finished in 971.4653ms 200 application/json 
