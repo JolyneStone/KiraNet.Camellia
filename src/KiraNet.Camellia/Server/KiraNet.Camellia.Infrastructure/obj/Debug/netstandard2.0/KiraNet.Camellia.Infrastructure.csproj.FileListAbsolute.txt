@@ -15,7 +15,6 @@ C:\monster\Code\KiraNet\KiraNet.Camellia\src\KiraNet.Camellia\Server\KiraNet.Cam
 C:\monster\Code\KiraNet\KiraNet.Camellia\src\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\bin\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.pdb
 C:\monster\Code\KiraNet\KiraNet.Camellia\src\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.dll
 C:\monster\Code\KiraNet\KiraNet.Camellia\src\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\bin\Debug\netstandard2.0\Microsoft.EntityFrameworkCore.xml
-C:\monster\Code\KiraNet\KiraNet.Camellia\src\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\obj\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.csprojResolveAssemblyReference.cache
 C:\monster\Code\KiraNet\KiraNet.Camellia\src\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\obj\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.csproj.CoreCompileInputs.cache
 C:\monster\Code\KiraNet\KiraNet.Camellia\src\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\obj\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.AssemblyInfoInputs.cache
 C:\monster\Code\KiraNet\KiraNet.Camellia\src\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\obj\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.AssemblyInfo.cs

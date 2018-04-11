@@ -19,7 +19,7 @@ export const environment = {
     client_id: 'client_id',
     redirect_uri: 'http://localhost:5200/login-callback',
     response_type: 'id_token token',
-    scope: 'openid profile email client_name',//'openid profile email client_name',
+    scope: 'openid profile email client_name',
     post_logout_redirect_uri: 'http://localhost:5200',
     silent_redirect_uri: 'http://localhost:5200',
     accessTokenExpiringNotificationTime: 4,

@@ -11,7 +11,7 @@ using System;
 namespace KiraNet.Camellia.AuthorizationServer.Data.Migrations.IdentityServer.ConfigurationDb
 {
     [DbContext(typeof(ConfigurationDbContext))]
-    [Migration("20180321062122_InitialIdentityServerConfigurationDbMigration")]
+    [Migration("20180411041919_InitialIdentityServerConfigurationDbMigration")]
     partial class InitialIdentityServerConfigurationDbMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

@@ -11,8 +11,8 @@ using System;
 namespace KiraNet.Camellia.AuthorizationServer.Data.Migrations
 {
     [DbContext(typeof(AuthDbContext))]
-    [Migration("20180321061756_InitialAuthDbMigration")]
-    partial class InitialAuthDbMigration
+    [Migration("20180411031202_InitialMigration")]
+    partial class InitialMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -21,7 +21,7 @@ namespace KiraNet.Camellia.AuthorizationServer.Data.Migrations
                 .HasAnnotation("ProductVersion", "2.0.2-rtm-10011")
                 .HasAnnotation("SqlServer:ValueGenerationStrategy", SqlServerValueGenerationStrategy.IdentityColumn);
 
-            modelBuilder.Entity("Camellia.AuthorizationServer.Models.User", b =>
+            modelBuilder.Entity("KiraNet.Camellia.AuthorizationServer.Models.User", b =>
                 {
                     b.Property<string>("Id")
                         .ValueGeneratedOnAdd();
@@ -60,7 +60,8 @@ namespace KiraNet.Camellia.AuthorizationServer.Data.Migrations
                     b.Property<bool>("TwoFactorEnabled");
 
                     b.Property<string>("UserName")
-                        .HasMaxLength(256);
+                        .IsRequired()
+                        .HasMaxLength(100);
 
                     b.HasKey("Id");
 
@@ -134,7 +135,7 @@ namespace KiraNet.Camellia.AuthorizationServer.Data.Migrations
 
                     b.HasIndex("UserId");
 
-                    b.ToTable("AspNetUserClaims");
+                    b.ToTable("UserClaims");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
@@ -193,7 +194,7 @@ namespace KiraNet.Camellia.AuthorizationServer.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<string>", b =>
                 {
-                    b.HasOne("Camellia.AuthorizationServer.Models.User")
+                    b.HasOne("KiraNet.Camellia.AuthorizationServer.Models.User")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
@@ -201,7 +202,7 @@ namespace KiraNet.Camellia.AuthorizationServer.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<string>", b =>
                 {
-                    b.HasOne("Camellia.AuthorizationServer.Models.User")
+                    b.HasOne("KiraNet.Camellia.AuthorizationServer.Models.User")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
@@ -214,7 +215,7 @@ namespace KiraNet.Camellia.AuthorizationServer.Data.Migrations
                         .HasForeignKey("RoleId")
                         .OnDelete(DeleteBehavior.Cascade);
 
-                    b.HasOne("Camellia.AuthorizationServer.Models.User")
+                    b.HasOne("KiraNet.Camellia.AuthorizationServer.Models.User")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);
@@ -222,7 +223,7 @@ namespace KiraNet.Camellia.AuthorizationServer.Data.Migrations
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<string>", b =>
                 {
-                    b.HasOne("Camellia.AuthorizationServer.Models.User")
+                    b.HasOne("KiraNet.Camellia.AuthorizationServer.Models.User")
                         .WithMany()
                         .HasForeignKey("UserId")
                         .OnDelete(DeleteBehavior.Cascade);

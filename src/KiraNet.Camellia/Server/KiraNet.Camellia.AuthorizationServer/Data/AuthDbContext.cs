@@ -16,7 +16,6 @@ namespace KiraNet.Camellia.AuthorizationServer.Data
         {
             base.OnModelCreating(builder);
 
-            builder.Entity<User>(entity => entity.ToTable("Users"));
             builder.Entity<IdentityRole>(entity => entity.ToTable("Roles"));
             builder.Entity<IdentityRoleClaim<string>>(entity => entity.ToTable("RoleClaims"));
             builder.Entity<IdentityUserRole<string>>(entity => entity.ToTable("UserRoles"));
@@ -24,6 +23,16 @@ namespace KiraNet.Camellia.AuthorizationServer.Data
             builder.Entity<IdentityUserToken<string>>(entity => entity.ToTable("UserTokens"));
             builder.Entity<IdentityRoleClaim<string>>(entity => entity.ToTable("RoleClaims"));
             builder.Entity<IdentityUserClaim<string>>(entity => entity.ToTable("UserClaims"));
+
+            builder.Entity<User>(entity =>
+            {
+                entity.ToTable("Users");
+
+                entity.Property(user => user.UserName)
+                      .IsRequired()
+                      .HasMaxLength(100);
+            });
+
         }
     }
 }

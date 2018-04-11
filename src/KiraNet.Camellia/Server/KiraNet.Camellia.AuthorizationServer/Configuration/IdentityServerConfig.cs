@@ -15,11 +15,11 @@ namespace KiraNet.Camellia.AuthorizationServer.Configuration
             {
                 new ApiResource(serviceConfig.ApiName, serviceConfig.ServiceDisplay)
                 {
-                    UserClaims = { JwtClaimTypes.Name, JwtClaimTypes.PreferredUserName, JwtClaimTypes.Email }
+                    UserClaims = { JwtClaimTypes.Name, JwtClaimTypes.PreferredUserName, JwtClaimTypes.Email, JwtClaimTypes.Role }
                 },
                 new ApiResource(serviceConfig.ClientName, serviceConfig.ServiceDisplay)
                 {
-                    UserClaims = { JwtClaimTypes.Name, JwtClaimTypes.PreferredUserName, JwtClaimTypes.Email }
+                    UserClaims = { JwtClaimTypes.Name, JwtClaimTypes.PreferredUserName, JwtClaimTypes.Email, JwtClaimTypes.Role }
                 },
             };
         }

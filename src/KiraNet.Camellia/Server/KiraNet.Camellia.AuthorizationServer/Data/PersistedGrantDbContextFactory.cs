@@ -10,7 +10,8 @@ namespace KiraNet.Camellia.AuthorizationServer.Data
         public PersistedGrantDbContext CreateDbContext(string[] args)
         {
             var optionsBuilder = new DbContextOptionsBuilder<PersistedGrantDbContext>();
-            optionsBuilder.UseSqlServer("Integrated Security=SSPI;Persist Security Info=False;User ID=sa;Initial Catalog=Camellia.AuthorizationServer;Data Source=.\\sqlexpress;MultipleActiveResultSets=true;MultipleActiveResultSets=true");
+            optionsBuilder.UseSqlServer("Integrated Security=SSPI;Persist Security Info=False;User ID=sa;Initial Catalog=KiraNet.Camellia.AuthorizationServer;Server=.\\sqlexpress;MultipleActiveResultSets=true", 
+                sql=>sql.MigrationsAssembly("KiraNet.Camellia.AuthorizationServer"));
 
             return new PersistedGrantDbContext(optionsBuilder.Options, new OperationalStoreOptions());
         }

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Reflection;
 using System.Security.Cryptography.X509Certificates;
 using AutoMapper;
 using IdentityServer4;
@@ -36,9 +37,11 @@ namespace KiraNet.Camellia.AuthorizationServer
             var serviceConfig = ServiceConfiguration.Configs;
             var connectionString = Configuration.GetConnectionString("DefaultConnection");
             var migrationsAssembly = typeof(Startup).Assembly.GetName().Name;
-
+           
             services.AddDbContext<AuthDbContext>(options =>
-                options.UseSqlServer(connectionString));
+                options.UseSqlServer(connectionString, sql=>
+                           //sql.MigrationsAssembly(migrationsAssembly)));
+                           sql.MigrationsAssembly("KiraNet.Camellia.AuthorizationServer")));
 
             services.AddIdentity<User, IdentityRole>(options =>
             {
@@ -97,21 +100,21 @@ namespace KiraNet.Camellia.AuthorizationServer
                 .AddInMemoryIdentityResources(IdentityServerConfig.GetIdentityResources())
                 .AddInMemoryApiResources(IdentityServerConfig.GetApiResources())
                 .AddInMemoryClients(IdentityServerConfig.GetClients())
-                //.AddConfigurationStore(options =>
-                //{
-                //    options.ConfigureDbContext = builder =>
-                //    {
-                //        builder.UseSqlServer(connectionString, sql =>
-                //            sql.MigrationsAssembly(migrationsAssembly));
-                //        //sql.MigrationsAssembly("KiraNet.Camellia.AuthorizationServer"));
-                //    };
-                //})
+                .AddConfigurationStore(options =>
+                {
+                    options.ConfigureDbContext = builder =>
+                    {
+                        builder.UseSqlServer(connectionString, sql =>
+                            //sql.MigrationsAssembly(migrationsAssembly));
+                            sql.MigrationsAssembly("KiraNet.Camellia.AuthorizationServer"));
+                    };
+                })
                 .AddOperationalStore(options =>
                 {
                     options.ConfigureDbContext = builder =>
                           builder.UseSqlServer(connectionString, sql =>
-                              sql.MigrationsAssembly(migrationsAssembly));
-                    //sql.MigrationsAssembly("KiraNet.Camellia.AuthorizationServer"));
+                              //sql.MigrationsAssembly(migrationsAssembly));
+                              sql.MigrationsAssembly("KiraNet.Camellia.AuthorizationServer"));
 
                     options.EnableTokenCleanup = true;  //允许对Token的清理
                     options.TokenCleanupInterval = 1800;  //清理周期时间Secends

@@ -127,7 +127,6 @@ namespace KiraNet.Camellia.ApiService
             app.AddNLogWeb();
             env.ConfigureNLog("nlog.config");
 
-            app.UseExceptionHandlingMiddleware();
             app.UseCors(ServiceConfiguration.Configs.ClientName);
             app.UseStaticFiles();
             app.UseSwagger();

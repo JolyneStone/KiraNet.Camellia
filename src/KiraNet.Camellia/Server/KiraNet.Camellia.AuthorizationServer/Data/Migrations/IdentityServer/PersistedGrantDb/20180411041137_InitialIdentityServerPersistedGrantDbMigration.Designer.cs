@@ -10,7 +10,7 @@ using System;
 namespace KiraNet.Camellia.AuthorizationServer.Data.Migrations.IdentityServer.PersistedGrantDb
 {
     [DbContext(typeof(PersistedGrantDbContext))]
-    [Migration("20180321061936_InitialIdentityServerPersistedGrantDbMigration")]
+    [Migration("20180411041137_InitialIdentityServerPersistedGrantDbMigration")]
     partial class InitialIdentityServerPersistedGrantDbMigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)

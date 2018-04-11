@@ -1,4 +1,8 @@
-﻿using System.Threading.Tasks;
+﻿using System.Linq;
+using System.Threading.Tasks;
+using IdentityServer4.EntityFramework.DbContexts;
+using IdentityServer4.EntityFramework.Mappers;
+using KiraNet.Camellia.AuthorizationServer.Configuration;
 using KiraNet.Camellia.AuthorizationServer.Data;
 using KiraNet.Camellia.AuthorizationServer.Models;
 using Microsoft.AspNetCore.Builder;
@@ -52,36 +56,36 @@ namespace KiraNet.Camellia.AuthorizationServer.Extensions
 
                 }).GetAwaiter().GetResult();
 
-                //var configurationDbContext = serviceScope.ServiceProvider.GetRequiredService<ConfigurationDbContext>();
-                //configurationDbContext.Database.Migrate();
-                //if (!configurationDbContext.Clients.Any())
-                //{
-                //    foreach (var client in IdentityServerConfig.GetClients().Where(client => !configurationDbContext.Clients.Any(c => c.ClientId == client.ClientId)))
-                //    {
-                //        configurationDbContext.Clients.Add(client.ToEntity());
-                //    }
-                //}
+                var configurationDbContext = serviceScope.ServiceProvider.GetRequiredService<ConfigurationDbContext>();
+                configurationDbContext.Database.Migrate();
+                if (!configurationDbContext.Clients.Any())
+                {
+                    foreach (var client in IdentityServerConfig.GetClients().Where(client => !configurationDbContext.Clients.Any(c => c.ClientId == client.ClientId)))
+                    {
+                        configurationDbContext.Clients.Add(client.ToEntity());
+                    }
+                }
 
-                //if (!configurationDbContext.IdentityResources.Any())
-                //{
-                //    foreach (
-                //        var identity in
-                //            IdentityServerConfig.GetIdentityResources()
-                //                .Where(identity => !configurationDbContext.IdentityResources.Any(i => i.Name == identity.Name)))
-                //    {
-                //        configurationDbContext.IdentityResources.Add(identity.ToEntity());
-                //    }
-                //}
+                if (!configurationDbContext.IdentityResources.Any())
+                {
+                    foreach (
+                        var identity in
+                            IdentityServerConfig.GetIdentityResources()
+                                .Where(identity => !configurationDbContext.IdentityResources.Any(i => i.Name == identity.Name)))
+                    {
+                        configurationDbContext.IdentityResources.Add(identity.ToEntity());
+                    }
+                }
 
-                //if (!configurationDbContext.ApiResources.Any())
-                //{
-                //    foreach (var api in IdentityServerConfig.GetApiResources().Where(api => !configurationDbContext.ApiResources.Any(a => a.Name == api.Name)))
-                //    {
-                //        configurationDbContext.ApiResources.Add(api.ToEntity());
-                //    }
-                //}
+                if (!configurationDbContext.ApiResources.Any())
+                {
+                    foreach (var api in IdentityServerConfig.GetApiResources().Where(api => !configurationDbContext.ApiResources.Any(a => a.Name == api.Name)))
+                    {
+                        configurationDbContext.ApiResources.Add(api.ToEntity());
+                    }
+                }
 
-                //configurationDbContext.SaveChanges();
+                configurationDbContext.SaveChanges();
             }
         }
     }
