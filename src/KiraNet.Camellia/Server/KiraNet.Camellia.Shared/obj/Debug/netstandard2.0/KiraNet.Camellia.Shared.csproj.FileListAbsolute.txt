@@ -17,3 +17,4 @@ C:\monster\Code\KiraNet\KiraNet.Camellia\src\KiraNet.Camellia\Server\KiraNet.Cam
 C:\monster\Code\KiraNet\KiraNet.Camellia\src\KiraNet.Camellia\Server\KiraNet.Camellia.Shared\obj\Debug\netstandard2.0\KiraNet.Camellia.Shared.AssemblyInfo.cs
 C:\monster\Code\KiraNet\KiraNet.Camellia\src\KiraNet.Camellia\Server\KiraNet.Camellia.Shared\obj\Debug\netstandard2.0\KiraNet.Camellia.Shared.dll
 C:\monster\Code\KiraNet\KiraNet.Camellia\src\KiraNet.Camellia\Server\KiraNet.Camellia.Shared\obj\Debug\netstandard2.0\KiraNet.Camellia.Shared.pdb
+C:\monster\Code\KiraNet\KiraNet.Camellia\src\KiraNet.Camellia\Server\KiraNet.Camellia.Shared\obj\Debug\netstandard2.0\KiraNet.Camellia.Shared.csprojResolveAssemblyReference.cache

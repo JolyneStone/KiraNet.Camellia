@@ -21,3 +21,4 @@ C:\monster\Code\KiraNet\KiraNet.Camellia\src\KiraNet.Camellia\Server\KiraNet.Cam
 C:\monster\Code\KiraNet\KiraNet.Camellia\src\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\obj\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.csproj.CopyComplete
 C:\monster\Code\KiraNet\KiraNet.Camellia\src\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\obj\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.dll
 C:\monster\Code\KiraNet\KiraNet.Camellia\src\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\obj\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.pdb
+C:\monster\Code\KiraNet\KiraNet.Camellia\src\KiraNet.Camellia\Server\KiraNet.Camellia.Infrastructure\obj\Debug\netstandard2.0\KiraNet.Camellia.Infrastructure.csprojResolveAssemblyReference.cache

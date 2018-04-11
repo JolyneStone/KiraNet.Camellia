@@ -97,9 +97,9 @@ namespace KiraNet.Camellia.AuthorizationServer
                     Configuration["AuthorizationServer:SigningCredentialCertificatePath"],
                     Configuration["AuthorizationServer:SigningCredentialCertificatePassword"]))
                 //#endif
-                .AddInMemoryIdentityResources(IdentityServerConfig.GetIdentityResources())
-                .AddInMemoryApiResources(IdentityServerConfig.GetApiResources())
-                .AddInMemoryClients(IdentityServerConfig.GetClients())
+                //.AddInMemoryIdentityResources(IdentityServerConfig.GetIdentityResources())
+                //.AddInMemoryApiResources(IdentityServerConfig.GetApiResources())
+                //.AddInMemoryClients(IdentityServerConfig.GetClients())
                 .AddConfigurationStore(options =>
                 {
                     options.ConfigureDbContext = builder =>
