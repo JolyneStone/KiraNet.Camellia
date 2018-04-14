@@ -1,0 +1,2 @@
+2018-04-11 14:36:28.1736|8|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|INFO|  AuthenticationScheme: Bearer was successfully authenticated. |url: http://localhost/api/user/getusersimple|action: 
+2018-04-11 14:36:28.1984|8|IdentityServer4.AccessTokenValidation.IdentityServerAuthenticationHandler|INFO|  AuthenticationScheme: Bearer was successfully authenticated. |url: http://localhost/api/test/getuser|action: 

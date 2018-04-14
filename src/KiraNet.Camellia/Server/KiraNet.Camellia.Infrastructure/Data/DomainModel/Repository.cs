@@ -4,6 +4,7 @@ using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Query;
 
 namespace KiraNet.Camellia.Infrastructure.DomainModel.Data
@@ -16,7 +17,7 @@ namespace KiraNet.Camellia.Infrastructure.DomainModel.Data
         public DbSet<TEntity> Entities => _dbContext.Set<TEntity>();
 
         public Repository(DbContext dbContext) => _dbContext = dbContext;
-
+        public EntityEntry<TEntity> Entry(TEntity entity) => _dbContext.Entry<TEntity>(entity);
         public IIncludableQueryable<TEntity, TProperty> Include<TProperty>(Expression<Func<TEntity, TProperty>> navigationPropertyPath)
             => Entities.Include(navigationPropertyPath);
         public TEntity GetById(TPrimaryKey id)
@@ -138,8 +139,8 @@ namespace KiraNet.Camellia.Infrastructure.DomainModel.Data
         }
     }
 
-    public class Repository<TEntity> : Repository<TEntity, int>, IRepository<TEntity>
-        where TEntity : class, IEntity<int>, new()
+    public class Repository<TEntity> : Repository<TEntity, string>, IRepository<TEntity>
+        where TEntity : class, IEntity<string>, new()
     {
         public Repository(DbContext dbContext) : base(dbContext)
         {

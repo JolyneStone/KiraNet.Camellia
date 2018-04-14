@@ -8,7 +8,7 @@ namespace KiraNet.Camellia.Infrastructure.DomainModel.Data
         TPrimaryKey Id { get; set; }
     }
 
-    public interface IEntity : IEntity<int>
+    public interface IEntity : IEntity<string>
     {
     }
 }

@@ -12,15 +12,26 @@ namespace KiraNet.Camellia.Infrastructure.Data.EntityConfiguration
         public void Configure(EntityTypeBuilder<TEntity> entity)
         {
             // use: ModelBuilder.ApplyConfiguration(IEntityTypeConfiguration entity);
-            entity.HasKey(e => e.Id);
             ConfigureDerived(entity);
         }
 
         protected abstract void ConfigureDerived(EntityTypeBuilder<TEntity> entity);
     }
 
-    public abstract class EntityConfiguration<TEntity> : EntityConfiguration<TEntity, int>
+    public abstract class EntityConfiguration<TEntity> : EntityConfiguration<TEntity, string>
     where TEntity : class, IEntity
     {
+    }
+
+    public abstract class EntityCommonConfiguration<TEntity> : IEntityTypeConfiguration<TEntity>
+        where TEntity : class
+    {
+        public void Configure(EntityTypeBuilder<TEntity> entity)
+        {
+            // use: ModelBuilder.ApplyConfiguration(IEntityTypeConfiguration entity);
+            ConfigureDerived(entity);
+        }
+
+        protected abstract void ConfigureDerived(EntityTypeBuilder<TEntity> entity);
     }
 }

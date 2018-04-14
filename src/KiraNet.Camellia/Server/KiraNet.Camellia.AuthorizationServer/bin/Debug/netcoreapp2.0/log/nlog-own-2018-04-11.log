@@ -1,0 +1,27 @@
+2018-04-11 14:35:50.2677|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for authentication |url: |action: 
+2018-04-11 14:35:50.4425|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-in |url: |action: 
+2018-04-11 14:35:50.4713|0|IdentityServer4.Startup|DEBUG|  Using Identity.External as default scheme for sign-out |url: |action: 
+2018-04-11 14:35:50.4956|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for challenge |url: |action: 
+2018-04-11 14:35:50.5256|0|IdentityServer4.Startup|DEBUG|  Using Identity.Application as default scheme for forbid |url: |action: 
+2018-04-11 14:35:51.4903|0|IdentityServer4.EntityFramework.TokenCleanup|DEBUG|  Starting token cleanup |url: |action: 
+2018-04-11 14:36:19.9622|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CORS request made for path: /.well-known/openid-configuration from origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-04-11 14:36:21.2698|0|IdentityServer4.EntityFramework.Services.CorsPolicyService|DEBUG|  Origin http://localhost:5200 is allowed: True |url: http://localhost/.well-known/openid-configuration|action: 
+2018-04-11 14:36:21.3047|0|IdentityServer4.Hosting.CorsPolicyProvider|DEBUG|  CorsPolicyService allowed origin: http://localhost:5200 |url: http://localhost/.well-known/openid-configuration|action: 
+2018-04-11 14:36:21.5018|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-04-11 14:36:21.5920|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-04-11 14:36:21.7297|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-04-11 14:36:22.2665|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-04-11 14:36:23.8820|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration|action: 
+2018-04-11 14:36:24.2249|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryEndpoint |url: http://localhost/.well-known/openid-configuration|action: 
+2018-04-11 14:36:24.6284|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryEndpoint for /.well-known/openid-configuration |url: http://localhost/.well-known/openid-configuration|action: 
+2018-04-11 14:36:24.8520|0|IdentityServer4.Endpoints.DiscoveryEndpoint|DEBUG|  Start discovery request |url: http://localhost/.well-known/openid-configuration|action: 
+2018-04-11 14:36:25.6352|0|IdentityServer4.EntityFramework.Stores.ResourceStore|DEBUG|  Found openid, profile, email, api_name, client_name as all scopes in database |url: http://localhost/.well-known/openid-configuration|action: 
+2018-04-11 14:36:25.6555|0|IdentityServer4.EntityFramework.Stores.ResourceStore|DEBUG|  Found openid, profile, email, api_name, client_name as all scopes in database |url: http://localhost/.well-known/openid-configuration|action: 
+2018-04-11 14:36:26.5899|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /connect/checksession matched to endpoint type Checksession |url: http://localhost/connect/checksession|action: 
+2018-04-11 14:36:26.6148|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Checksession, successfully created handler: IdentityServer4.Endpoints.CheckSessionEndpoint |url: http://localhost/connect/checksession|action: 
+2018-04-11 14:36:26.6397|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.CheckSessionEndpoint for /connect/checksession |url: http://localhost/connect/checksession|action: 
+2018-04-11 14:36:26.7509|0|IdentityServer4.Endpoints.CheckSessionEndpoint|DEBUG|  Rendering check session result |url: http://localhost/connect/checksession|action: 
+2018-04-11 14:36:26.9749|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Request path /.well-known/openid-configuration/jwks matched to endpoint type Discovery |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-04-11 14:36:27.0012|0|IdentityServer4.Hosting.EndpointRouter|DEBUG|  Endpoint enabled: Discovery, successfully created handler: IdentityServer4.Endpoints.DiscoveryKeyEndpoint |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-04-11 14:36:27.0251|0|IdentityServer4.Hosting.IdentityServerMiddleware|INFO|  Invoking IdentityServer endpoint: IdentityServer4.Endpoints.DiscoveryKeyEndpoint for /.well-known/openid-configuration/jwks |url: http://localhost/.well-known/openid-configuration/jwks|action: 
+2018-04-11 14:36:27.0696|0|IdentityServer4.Endpoints.DiscoveryKeyEndpoint|DEBUG|  Start key discovery request |url: http://localhost/.well-known/openid-configuration/jwks|action: 

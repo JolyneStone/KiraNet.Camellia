@@ -6,11 +6,11 @@ using Microsoft.EntityFrameworkCore.Storage;
 
 namespace KiraNet.Camellia.Infrastructure.DomainModel.Data
 {
-    public class UnitOfWork : IUnitOfWork
+    public abstract class UnitOfWorkBase : IUnitOfWork
     {
         protected readonly DbContext _dbContext;
 
-        public UnitOfWork(DbContext context)
+        public UnitOfWorkBase(DbContext context)
         {
             _dbContext = context ?? throw new ArgumentNullException(nameof(context));
         }

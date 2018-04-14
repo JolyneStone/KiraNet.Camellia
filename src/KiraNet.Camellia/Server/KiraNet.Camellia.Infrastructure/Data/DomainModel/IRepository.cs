@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Linq.Expressions;
 using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore.ChangeTracking;
 using Microsoft.EntityFrameworkCore.Query;
 
 namespace KiraNet.Camellia.Infrastructure.DomainModel.Data
@@ -11,6 +12,7 @@ namespace KiraNet.Camellia.Infrastructure.DomainModel.Data
         where TEntity : class, IEntity<TPrimaryKey>, new()
         where TPrimaryKey : IEquatable<TPrimaryKey>
     {
+        EntityEntry<TEntity> Entry(TEntity entity);
         IIncludableQueryable<TEntity, TProperty> Include<TProperty>(Expression<Func<TEntity, TProperty>> navigationPropertyPath);
         TEntity GetById(TPrimaryKey id);
         Task<TEntity> GetByIdAsync(TPrimaryKey id);
@@ -41,8 +43,8 @@ namespace KiraNet.Camellia.Infrastructure.DomainModel.Data
         Task<bool> IsAllAsync(Expression<Func<TEntity, bool>> predicate);
     }
 
-    public interface IRepository<TEntity> : IRepository<TEntity, int>
-        where TEntity : class, IEntity<int>, new()
+    public interface IRepository<TEntity> : IRepository<TEntity, string>
+        where TEntity : class, IEntity<string>, new()
     {
     }
 }
